@@ -1,0 +1,21 @@
+Radare2 cheatsheets:
+https://github.com/pwntester/cheatsheets/blob/master/radare2.md
+
+r2 shell:
+# r2 -
+# r2 -d bin; debug
+# r2 -p [name]; open existing project
+
+Shell command:
+# oo+ ; reopen the file with RW perms
+# s $addr; jump to the addr
+# w ; write
+# V ; Visual mode
+	p/q; Next/Quit in Visual mode
+# fs [section]; list/choose sections
+# f ; list items
+# px [N]; hexdump of N bytes
+# pd ; disassemble N opcode or pD bytes
+
+# aaa: analyze functions
+
