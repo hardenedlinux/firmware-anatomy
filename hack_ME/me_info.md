@@ -18,6 +18,7 @@ We should know our enemeies from RING 3/0/-1/-2 and espeically the "devil" from 
 
 ## Article/paper
 
+* [mysteries_intel.txt - 2012-07](https://code.coreboot.org/p/flashrom/source/tree/HEAD/trunk/Documentation/mysteries_intel.txt)
 * [Intel Management Engine - 2012-10](http://vpro.by/intel-management-engine)
 * [Intel x86 considered harmful - 2015-10](https://blog.invisiblethings.org/papers/2015/x86_harmful.pdf)
 * [Безопасность прошивок на примере подсистемы Intel Management Engine - 2016-03](https://habrahabr.ru/company/dsec/blog/278549/)
