@@ -28,6 +28,7 @@ We should know our enemeies from RING 3/0/-1/-2 and espeically the "devil" from 
 * [me.bios.io](http://me.bios.io), contains some early research about ME: [ME blob format](http://me.bios.io/ME_blob_format) might need update, get a proper version of [GNU toolchain for ARC](https://github.com/foss-for-synopsys-dwc-arc-processors/toolchain) and then try [ARC disassembly](http://me.bios.io/ARC_disassembly) on earlier ME versions.
 * [Starting point of minimizing ME](https://www.coreboot.org/pipermail/coreboot/2016-November/082331.html) and see the [current status of me_cleaner](https://github.com/corna/me_cleaner/issues/3).
 * [Neutralize ME firmware on SandyBridge and IvyBridge platforms](https://hardenedlinux.github.io/firmware/2016/11/17/neutralize_ME_firmware_on_sandybridge_and_ivybridge.html) is an operational manual and we [have done it on some mainboards](https://github.com/hardenedlinux/hardenedlinux_profiles/tree/master/coreboot)( including a Skylake-based one) so far.
+* [Safeguarding rootkits: Intel BootGuard - 2016-12](https://github.com/flothrone/bootguard), ME is original set as ["Manufacturing Mode" until "OEM Public Key Hash" and "Boot Guard Profile Configuration" being copied to CPU fuses](https://trmm.net/Bootguard) to make it either enable or disable. Alexander Ermolov shows us the ["Schrodinger's Bootguard" is neither in enabled or disabled](https://support.lenovo.com/us/en/solutions/len_9903), which can be exploited for further persistent uses.
 
 
 ## Free/libre open source tools
