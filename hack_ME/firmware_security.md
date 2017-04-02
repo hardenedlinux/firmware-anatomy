@@ -7,6 +7,7 @@ Ring -2...
 ## Slide/presentation
 
 * [Attacking Intel® BIOS - 200907](http://invisiblethingslab.com/resources/bh09usa/Attacking%20Intel%20BIOS.pdf)
+* [A New Class of Vulnerabilities in SMI Handlers - 201503](https://cansecwest.com/slides/2015/A%20New%20Class%20of%20Vulnin%20SMI%20-%20Andrew%20Furtak.pdf)
 * [BARing the System: New vulnerabilities in Coreboot & UEFI based systems - 201701](http://www.intelsecurity.com/advanced-threat-research/content/data/REConBrussels2017_BARing_the_system.pdf)
 
 ## Article/paper
