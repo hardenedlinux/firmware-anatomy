@@ -1,4 +1,4 @@
-## Info about virtualization security
+## Info about firmware security
 
 "If you know the enemy and know yourself, you need not fear the result of a hundred battles. If you know yourself but not the enemy, for every victory gained you will also suffer a defeat. If you know neither the enemy nor yourself, you will succumb in every battle." ---  Sun Tzu 
 
@@ -21,7 +21,6 @@ Ring -2...
 * [System Management Mode Hack Using SMM for "Other Purposes" - 200803](http://webcache.googleusercontent.com/search?q=cache:fpIz7WipFBUJ:phrack.org/issues/65/7.html+&cd=1&hl=zh-TW&ct=clnk&gl=hk)
 * [Attacking SMM Memory via Intel® CPU Cache Poisoning - 200903](http://invisiblethingslab.com/resources/misc09/smm_cache_fun.pdf), code is [here](http://invisiblethingslab.com/resources/misc09/o68-2.tgz).
 * [A Real SMM Rootkit: Reversing and Hooking BIOS SMI Handlers](http://webcache.googleusercontent.com/search?q=cache:-N3__o-F_Z4J:phrack.org/issues/66/11.html+&cd=1&hl=zh-TW&ct=clnk&gl=hk)
-* [
 * [Following the White Rabbit: Software Attacks against Intel® VT-d - 201103](http://www.invisiblethingslab.com/resources/2011/Software%20Attacks%20on%20Intel%20VT-d.pdf)
 * [Exploring new lands on Intel CPUs (SINIT code execution hijacking) - 201112](http://www.invisiblethingslab.com/resources/2011/Attacking_Intel_TXT_via_SINIT_hijacking.pdf)
 * [Hardware and firmware attacks: Defending, detecting, and responding](https://code.facebook.com/posts/182707188759117/hardware-and-firmware-attacks-defending-detecting-and-responding/), video is [here](https://www.youtube.com/watch?v=z4-N2HyQMVU).
