@@ -23,7 +23,9 @@ Ring -2...
 * [A Real SMM Rootkit: Reversing and Hooking BIOS SMI Handlers](http://webcache.googleusercontent.com/search?q=cache:-N3__o-F_Z4J:phrack.org/issues/66/11.html+&cd=1&hl=zh-TW&ct=clnk&gl=hk)
 * [Following the White Rabbit: Software Attacks against Intel® VT-d - 201103](http://www.invisiblethingslab.com/resources/2011/Software%20Attacks%20on%20Intel%20VT-d.pdf)
 * [Exploring new lands on Intel CPUs (SINIT code execution hijacking) - 201112](http://www.invisiblethingslab.com/resources/2011/Attacking_Intel_TXT_via_SINIT_hijacking.pdf)
+* [BIOS Based Rootkits - 201306](http://www.exfiltrated.com/research-BIOS_Based_Rootkits.php)
 * [Hardware and firmware attacks: Defending, detecting, and responding](https://code.facebook.com/posts/182707188759117/hardware-and-firmware-attacks-defending-detecting-and-responding/), video is [here](https://www.youtube.com/watch?v=z4-N2HyQMVU).
+
 
 ## Free/libre open source project
 
