@@ -14,7 +14,7 @@ We should know our enemeies from RING 3/0/-1/-2 and espeically the "devil" from 
 * [Intel ME Secrets - 2014-06](https://recon.cx/2014/slides/Recon%202014%20Skochinsky.pdf), [video1](https://www.youtube.com/watch?v=4kCICUPc9_8), [video2](https://www.youtube.com/watch?v=Y2_-VXz9E-w)
 * [Intel ME: Two Years Later - 2014-10](https://github.com/skochinsky/papers/raw/master/2014-10%20%5BBreakpoint%5D%20Intel%20ME%20-%20Two%20Years%20Later.pdf)
 * [Reversing firmware using radare2 - 2014-10](http://xvilka.me/h2hc2014-reversing-firmware-radare-slides.pdf)
-
+* [Intel ME: The Way of the Static Analysis - 201703](https://www.troopers.de/downloads/troopers17/TR17_ME11_Static.pdf), [presentation video](https://www.youtube.com/watch?v=2_aokrfcoUk)
 
 ## Article/paper
 
