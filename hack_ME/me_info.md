@@ -42,3 +42,7 @@ We should know our enemeies from RING 3/0/-1/-2 and espeically the "devil" from 
 ## News
 * [Intel & ME, and why we should get rid of ME](https://www.fsf.org/blogs/licensing/intel-me-and-why-we-should-get-rid-of-me), by FSF( Free software foundation)
 * [Researchers find vulnerability in older versions of Intel ME, but you probably don't need to worry](http://www.digitaltrends.com/computing/intel-me-vulnerability/)
+
+## ME "apps"
+
+* [iDRAC](http://www.dell.com/support/manuals/us/en/19/idrac8-with-lc-v2.05.05.05/iDRAC8_2.05.05.05_UG-v1/Monitoring-Performance-Index-of-CPU-Memory-and-IO-Modules?guid=GUID-CC66A8FC-4644-4633-9B24-1EAF448BC4EC&lang=en-us)
