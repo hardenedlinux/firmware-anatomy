@@ -40,7 +40,7 @@ We should know our enemeies from RING 3/0/-1/-2 and espeically the "devil" from 
 * [Intel Management Engine: Drivers, Firmware & System Tools](http://www.win-raid.com/t596f39-Intel-Management-Engine-Drivers-Firmware-amp-System-Tools.html), it's up-to-date Windows-only tools.
 
 ## News
-* [Remote security exploit in all 2008+ Intel platforms - 20170501](https://semiaccurate.com/2017/05/01/remote-security-exploit-2008-intel-platforms/), [CVE-2017-5689](https://security-center.intel.com/advisory.aspx?intelid=INTEL-SA-00075&languageid=en-fr)
+* [Remote security exploit in all 2008+ Intel platforms - 20170501](https://semiaccurate.com/2017/05/01/remote-security-exploit-2008-intel-platforms/), [CVE-2017-5689](https://security-center.intel.com/advisory.aspx?intelid=INTEL-SA-00075&languageid=en-fr) and [mjg59's write-up](https://mjg59.dreamwidth.org/48429.html).
 * [Intel & ME, and why we should get rid of ME](https://www.fsf.org/blogs/licensing/intel-me-and-why-we-should-get-rid-of-me), by FSF( Free software foundation)
 * [Researchers find vulnerability in older versions of Intel ME, but you probably don't need to worry](http://www.digitaltrends.com/computing/intel-me-vulnerability/)
 
