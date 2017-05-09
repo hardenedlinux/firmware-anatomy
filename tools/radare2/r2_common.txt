@@ -19,3 +19,6 @@ Shell command:
 
 # aaa: analyze functions
 
+
+Search strings:
+# rabin2 -z

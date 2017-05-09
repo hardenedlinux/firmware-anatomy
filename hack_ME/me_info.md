@@ -11,6 +11,7 @@ We should know our enemeies from RING 3/0/-1/-2 and espeically the "devil" from 
 * [Security Evaluation of Intel's Active Management Technology - 2010](https://people.kth.se/~maguire/DEGREE-PROJECT-REPORTS/100402-Vassilios_Ververis-with-cover.pdf)
 * [Intel AMT/ME Meet Intel's hardware backdoor - 2012-09](www.uberwall.org/bin/download/download/102/lacon12_intel_amt.pdf)
 * [Rootkit in your laptop - 2012-10](http://me.bios.io/images/c/ca/Rootkit_in_your_laptop.pdf)
+* [Persistent, Stealthy, Remote-controlled Dedicated Hardware Malware - 201312](http://stewin.org/slides/30c3-dedicated_hw_malware-stewin_bystrov_final.pdf), [presentation video](http://www.youtube.com/watch?v=Ti-N7WDqNjk) at 30C3.
 * [Intel ME Secrets - 2014-06](https://recon.cx/2014/slides/Recon%202014%20Skochinsky.pdf), [video1](https://www.youtube.com/watch?v=4kCICUPc9_8), [video2](https://www.youtube.com/watch?v=Y2_-VXz9E-w)
 * [Intel ME: Two Years Later - 2014-10](https://github.com/skochinsky/papers/raw/master/2014-10%20%5BBreakpoint%5D%20Intel%20ME%20-%20Two%20Years%20Later.pdf)
 * [Reversing firmware using radare2 - 2014-10](http://xvilka.me/h2hc2014-reversing-firmware-radare-slides.pdf)
@@ -20,6 +21,7 @@ We should know our enemeies from RING 3/0/-1/-2 and espeically the "devil" from 
 
 * [mysteries_intel.txt - 2012-07](https://code.coreboot.org/p/flashrom/source/tree/HEAD/trunk/Documentation/mysteries_intel.txt)
 * [Intel Management Engine - 2012-10](http://vpro.by/intel-management-engine)
+* [Detecting Peripheral-based Attacks on the Host Memory - 201407](https://depositonce.tu-berlin.de/bitstream/11303/4494/1/stewin_patrick.pdf)
 * [Intel x86 considered harmful - 2015-10](https://blog.invisiblethings.org/papers/2015/x86_harmful.pdf)
 * [Безопасность прошивок на примере подсистемы Intel Management Engine - 2016-03](https://habrahabr.ru/company/dsec/blog/278549/)
 * [Intel ME. Как избежать восстания машин? - 2016-04](https://habrahabr.ru/company/dsec/blog/282546/)
