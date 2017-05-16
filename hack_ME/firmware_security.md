@@ -31,3 +31,4 @@ Ring -2...
 
 * [CHIPSEC](https://github.com/chipsec/)
 * [UEFITool](https://github.com/LongSoft/UEFITool)
+* [Firmware research timeline](http://timeglider.com/timeline/5ca2daa6078caaf4)
