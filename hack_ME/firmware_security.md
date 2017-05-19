@@ -25,7 +25,7 @@ Ring -2...
 * [Exploring new lands on Intel CPUs (SINIT code execution hijacking) - 201112](http://www.invisiblethingslab.com/resources/2011/Attacking_Intel_TXT_via_SINIT_hijacking.pdf)
 * [BIOS Based Rootkits - 201306](http://www.exfiltrated.com/research-BIOS_Based_Rootkits.php)
 * [Hardware and firmware attacks: Defending, detecting, and responding](https://code.facebook.com/posts/182707188759117/hardware-and-firmware-attacks-defending-detecting-and-responding/), video is [here](https://www.youtube.com/watch?v=z4-N2HyQMVU).
-
+* [A Tour beyond BIOS Using Intel VT-d for DMA Protection in UEFI BIOS - 201501](https://firmware.intel.com/sites/default/files/resources/A_Tour_Beyond_BIOS_Using_Intel_VT-d_for_DMA_Protection.pdf)
 
 ## Free/libre open source project
 
