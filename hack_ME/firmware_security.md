@@ -13,7 +13,7 @@ Ring -2...
 * [BARing the System: New vulnerabilities in Coreboot & UEFI based systems - 201701](http://www.intelsecurity.com/advanced-threat-research/content/data/REConBrussels2017_BARing_the_system.pdf)
 * [UEFI  Firmware  Rootkits: Myths  and  Reality - 201703](https://www.blackhat.com/docs/asia-17/materials/asia-17-Matrosov-The-UEFI-Firmware-Rootkits-Myths-And-Reality.pdf)
 * [Attacking hypervisors through hardware emulation - 201703](https://www.troopers.de/downloads/troopers17/TR17_Attacking_hypervisor_through_hardwear_emulation.pdf)
-
+* [Training: Security of BIOS/UEFI System Firmware from Attacker and Defender Perspectives - 201705](https://github.com/advanced-threat-research/firmware-security-training)
 
 ## Article/paper
 
