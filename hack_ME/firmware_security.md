@@ -6,6 +6,7 @@ Ring -2...
 
 ## Slide/presentation
 
+* [Hacking the Extensible Firmware Interface - 200708](https://www.blackhat.com/presentations/bh-usa-07/Heasman/Presentation/bh-usa-07-heasman.pdf), [video](https://www.youtube.com/watch?v=g-n42Q-Pxsg)
 * [Attacking Intel® BIOS - 200907](http://invisiblethingslab.com/resources/bh09usa/Attacking%20Intel%20BIOS.pdf)
 * [Getting into the SMRAM: SMM Reloaded - 2009](https://www.ssi.gouv.fr/uploads/IMG/pdf/Cansec_final.pdf)
 * [System Management Mode Design and Security Issues - 201002](http://www.ssi.gouv.fr/uploads/IMG/pdf/IT_Defense_2010_final.pdf)
@@ -33,3 +34,7 @@ Ring -2...
 * [CHIPSEC](https://github.com/chipsec/)
 * [UEFITool](https://github.com/LongSoft/UEFITool)
 * [Firmware research timeline](http://timeglider.com/timeline/5ca2daa6078caaf4)
+
+## Crazy security standard/Compliance
+
+* [NIST SP 800-193](http://csrc.nist.gov/publications/PubsDrafts.html#SP-800-193)
