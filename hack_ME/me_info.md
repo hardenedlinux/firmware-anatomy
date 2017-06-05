@@ -49,3 +49,9 @@ We should know our enemeies from RING 3/0/-1/-2 and espeically the "devil" from 
 ## ME "apps"
 
 * [iDRAC](http://www.dell.com/support/manuals/us/en/19/idrac8-with-lc-v2.05.05.05/iDRAC8_2.05.05.05_UG-v1/Monitoring-Performance-Index-of-CPU-Memory-and-IO-Modules?guid=GUID-CC66A8FC-4644-4633-9B24-1EAF448BC4EC&lang=en-us)
+
+
+## Dark side of AMD
+
+* [AMD x86 SMU firmware analysis - 201412](https://media.ccc.de/v/31c3_-_6103_-_en_-_saal_2_-_201412272145_-_amd_x86_smu_firmware_analysis_-_rudolf_marek), [slide](https://events.ccc.de/congress/2014/Fahrplan/system/attachments/2503/original/ccc-final.pdf)
+* [smutool](https://github.com/zamaudio/smutool)
