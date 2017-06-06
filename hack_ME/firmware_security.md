@@ -37,4 +37,6 @@ Ring -2...
 
 ## Crazy security standard/Compliance
 
-* [NIST SP 800-193](http://csrc.nist.gov/publications/PubsDrafts.html#SP-800-193)
+* [NIST SP 800-147: BIOS Protection Guidelines 201104](http://nvlpubs.nist.gov/nistpubs/Legacy/SP/nistspecialpublication800-147.pdf)
+* [NIST SP 800-147B: BIOS Protection Guidelines for Servers](http://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-147B.pdf)
+* [NIST SP 800-193: DRAFT Platform Firmware Resiliency Guidelines](http://csrc.nist.gov/publications/PubsDrafts.html#SP-800-193)
