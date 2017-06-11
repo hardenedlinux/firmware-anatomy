@@ -11,6 +11,7 @@ Ring -2...
 * [Getting into the SMRAM: SMM Reloaded - 2009](https://www.ssi.gouv.fr/uploads/IMG/pdf/Cansec_final.pdf)
 * [System Management Mode Design and Security Issues - 201002](http://www.ssi.gouv.fr/uploads/IMG/pdf/IT_Defense_2010_final.pdf)
 * [A New Class of Vulnerabilities in SMI Handlers - 201503](https://cansecwest.com/slides/2015/A%20New%20Class%20of%20Vulnin%20SMI%20-%20Andrew%20Furtak.pdf)
+* [How Many Million BIOSes Would you Like to Infect? - 201506](http://legbacore.com/Research_files/HowManyMillionBIOSWouldYouLikeToInfect_Full.pdf), [paper](http://legbacore.com/Research_files/HowManyMillionBIOSesWouldYouLikeToInfect_Whitepaper_v1.pdf)
 * [BARing the System: New vulnerabilities in Coreboot & UEFI based systems - 201701](http://www.intelsecurity.com/advanced-threat-research/content/data/REConBrussels2017_BARing_the_system.pdf)
 * [UEFI  Firmware  Rootkits: Myths  and  Reality - 201703](https://www.blackhat.com/docs/asia-17/materials/asia-17-Matrosov-The-UEFI-Firmware-Rootkits-Myths-And-Reality.pdf)
 * [Attacking hypervisors through hardware emulation - 201703](https://www.troopers.de/downloads/troopers17/TR17_Attacking_hypervisor_through_hardwear_emulation.pdf)
