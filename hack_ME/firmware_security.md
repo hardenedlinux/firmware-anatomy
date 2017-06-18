@@ -30,6 +30,17 @@ Ring -2...
 * [Hardware and firmware attacks: Defending, detecting, and responding](https://code.facebook.com/posts/182707188759117/hardware-and-firmware-attacks-defending-detecting-and-responding/), video is [here](https://www.youtube.com/watch?v=z4-N2HyQMVU).
 * [A Tour beyond BIOS Using Intel VT-d for DMA Protection in UEFI BIOS - 201501](https://firmware.intel.com/sites/default/files/resources/A_Tour_Beyond_BIOS_Using_Intel_VT-d_for_DMA_Protection.pdf)
 
+## GPU-based attack
+* [GPU-Assisted Malware - 2010](http://dcs.ics.forth.gr/Activities/papers/gpumalware.malware10.pdf)
+* [You Can Type, but You Can’t Hide: A Stealthy GPU-based Keylogger - 201304](http://www.cs.columbia.edu/%7Emikepo/papers/gpukeylogger.eurosec13.pdf), [PoC code](https://github.com/x0r1/Demon)
+* [jellyfish: GPU rootkit PoC - 201504](https://github.com/x0r1/jellyfish)
+
+## HDD-based attack
+* [Hard disks: more than just block devices - 201308](http://bofh.nikhef.nl/events/OHM/video/d2-t1-13-20130801-2300-hard_disks_more_than_just_block_devices-sprite_tm.m4v)
+* [Implementation and Implications of a Stealth Hard-Drive Backdoor - 201403](https://www.ibr.cs.tu-bs.de/users/kurmus/papers/acsac13.pdf)
+* [Active disk antiforensics and hard disk backdoor - 201409](https://www.dfrws.org/sites/default/files/session-files/pres-some_practical_thoughts_concerning_active_disk_antiforensics.pdf), [video](https://www.youtube.com/watch?v=8Zpb34Qf0NY)
+
+
 ## Free/libre open source project
 
 * [CHIPSEC](https://github.com/chipsec/)
