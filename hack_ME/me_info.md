@@ -42,8 +42,12 @@ We should know our enemeies from RING 3/0/-1/-2 and espeically the "devil" from 
 * [Intel ME (Manageability engine) Huffman algorithm](https://io.netgarage.org/me/)
 * [Intel Management Engine: Drivers, Firmware & System Tools](http://www.win-raid.com/t596f39-Intel-Management-Engine-Drivers-Firmware-amp-System-Tools.html), it's up-to-date Windows-only tools.
 
+## Intel ME/"apps" advisory
+* [INTEL-SA-00075, CVE-2017-5689: Intel Active Management Technology, Intel Small Business Technology, and Intel Standard Manageability Escalation of Privilege - 20170501](https://security-center.intel.com/advisory.aspx?intelid=INTEL-SA-00075&languageid=en-fr)
+* [INTEL-SA-00081, CVE-2017-5697: Intel AMT Clickjacking Vulnerability - Jun 5 2017](https://security-center.intel.com/advisory.aspx?intelid=INTEL-SA-00081&languageid=en-fr)
+
 ## News
-* [Red alert! Intel patches remote execution hole that's been hidden in biz, server chips since 2010 - 20170501](https://www.theregister.co.uk/2017/05/01/intel_amt_me_vulnerability/), [CVE-2017-5689](https://security-center.intel.com/advisory.aspx?intelid=INTEL-SA-00075&languageid=en-fr), [mjg59's write-up](https://mjg59.dreamwidth.org/48429.html) and [INTEL-SA-00075 Mitigation Guide](https://downloadcenter.intel.com/download/26754).
+* [Red alert! Intel patches remote execution hole that's been hidden in biz, server chips since 2010 - 20170501](https://www.theregister.co.uk/2017/05/01/intel_amt_me_vulnerability/), [CVE-2017-5689](https://security-center.intel.com/advisory.aspx?intelid=INTEL-SA-00075&languageid=en-fr), [mjg59's write-up](https://mjg59.dreamwidth.org/48429.html) and [INTEL-SA-00075 Mitigation Guide](https://downloadcenter.intel.com/download/26754). Vendors like [SIEMENS fixed CVE-2017-5689](https://www.siemens.com/cert/pool/cert/siemens_security_advisory_ssa-874235.pdf) in late June.
 * [Intel & ME, and why we should get rid of ME](https://www.fsf.org/blogs/licensing/intel-me-and-why-we-should-get-rid-of-me), by FSF( Free software foundation)
 * [Researchers find vulnerability in older versions of Intel ME, but you probably don't need to worry](http://www.digitaltrends.com/computing/intel-me-vulnerability/)
 
