@@ -10,8 +10,10 @@ Ring -2...
 * [Attacking Intel® BIOS - 200907](http://invisiblethingslab.com/resources/bh09usa/Attacking%20Intel%20BIOS.pdf)
 * [Getting into the SMRAM: SMM Reloaded - 2009](https://www.ssi.gouv.fr/uploads/IMG/pdf/Cansec_final.pdf)
 * [System Management Mode Design and Security Issues - 201002](http://www.ssi.gouv.fr/uploads/IMG/pdf/IT_Defense_2010_final.pdf)
+* [DE MYSTERIIS DOM JOBSIVS Mac EFI Rootkits - 201207](https://media.blackhat.com/bh-us-12/Briefings/Loukas_K/BH_US_12_LoukasK_De_Mysteriis_Dom_Jobsivs_Slides.pdf), [paper](http://ho.ax/downloads/De_Mysteriis_Dom_Jobsivs_Black_Hat_Paper.pdf) and [video](https://www.youtube.com/watch?v=W21ZIaKf5HA)
 * [A New Class of Vulnerabilities in SMI Handlers - 201503](https://cansecwest.com/slides/2015/A%20New%20Class%20of%20Vulnin%20SMI%20-%20Andrew%20Furtak.pdf)
 * [How Many Million BIOSes Would you Like to Infect? - 201506](http://legbacore.com/Research_files/HowManyMillionBIOSWouldYouLikeToInfect_Full.pdf), [paper](http://legbacore.com/Research_files/HowManyMillionBIOSesWouldYouLikeToInfect_Whitepaper_v1.pdf)
+* [ANALYSIS OF THE ATTACK SURFACE OF WINDOWS 10 VIRTUALIZATION - BASED SECURITY - 201608](https://www.blackhat.com/docs/us-16/materials/us-16-Wojtczuk-Analysis-Of-The-Attack-Surface-Of-Windows-10-Virtualization-Based-Security.pdf), [white paper](https://www.bromium.com/sites/default/files/us-16-wojtczuk-analysis-of-the-attack-surface-of-windows-10-virtualization-based-security-wp-v2.pdf) and [video](https://www.youtube.com/watch?v=_646Gmr_uo0)
 * [BARing the System: New vulnerabilities in Coreboot & UEFI based systems - 201701](http://www.intelsecurity.com/advanced-threat-research/content/data/REConBrussels2017_BARing_the_system.pdf)
 * [UEFI  Firmware  Rootkits: Myths  and  Reality - 201703](https://www.blackhat.com/docs/asia-17/materials/asia-17-Matrosov-The-UEFI-Firmware-Rootkits-Myths-And-Reality.pdf)
 * [Attacking hypervisors through hardware emulation - 201703](https://www.troopers.de/downloads/troopers17/TR17_Attacking_hypervisor_through_hardwear_emulation.pdf)
@@ -22,6 +24,7 @@ Ring -2...
 * [SMM Rootkits: A New Breed of OS Independent Malware - 2008](http://www.co-c.net/repository-securite-informatique/Papers/SMM-Rootkits-Securecom08.pdf), [video](https://media.blackhat.com/bh-usa-08/video/bh-us-08-Embleton/black-hat-usa-08-embleton-smmrootkit-hires.m4v) at BH08 USA.
 * [System Management Mode Hack Using SMM for "Other Purposes" - 200803](http://webcache.googleusercontent.com/search?q=cache:fpIz7WipFBUJ:phrack.org/issues/65/7.html+&cd=1&hl=zh-TW&ct=clnk&gl=hk)
 * [Attacking SMM Memory via Intel® CPU Cache Poisoning - 200903](http://invisiblethingslab.com/resources/misc09/smm_cache_fun.pdf), code is [here](http://invisiblethingslab.com/resources/misc09/o68-2.tgz).
+* [Another Way to Circumvent Intel Trusted Execution Technology - 200912](http://invisiblethingslab.com/resources/misc09/Another%20TXT%20Attack.pdf)
 * [A Real SMM Rootkit: Reversing and Hooking BIOS SMI Handlers](http://webcache.googleusercontent.com/search?q=cache:-N3__o-F_Z4J:phrack.org/issues/66/11.html+&cd=1&hl=zh-TW&ct=clnk&gl=hk)
 * [Following the White Rabbit: Software Attacks against Intel® VT-d - 201103](http://www.invisiblethingslab.com/resources/2011/Software%20Attacks%20on%20Intel%20VT-d.pdf)
 * [Exploring new lands on Intel CPUs (SINIT code execution hijacking) - 201112](http://www.invisiblethingslab.com/resources/2011/Attacking_Intel_TXT_via_SINIT_hijacking.pdf)
@@ -40,6 +43,10 @@ Ring -2...
 * [Implementation and Implications of a Stealth Hard-Drive Backdoor - 201403](https://www.ibr.cs.tu-bs.de/users/kurmus/papers/acsac13.pdf)
 * [Active disk antiforensics and hard disk backdoor - 201409](https://www.dfrws.org/sites/default/files/session-files/pres-some_practical_thoughts_concerning_active_disk_antiforensics.pdf), [video](https://www.youtube.com/watch?v=8Zpb34Qf0NY)
 
+## Countermeansure
+* [SBAP: Software-Based Attestation for Peripherals](http://www.netsec.ethz.ch/publications/papers/li_mccune_perrig_SBAP_trust10.pdf)
+* [VIPER: Verifying the Integrity of PERipherals’ Firmware - 201110](https://pdfs.semanticscholar.org/4cde/50e94cada9bcaaec0f753e1b4dec3b6c355c.pdf)
+* [What if you can’t trust your network card? - 2011](https://pdfs.semanticscholar.org/82c0/086755479360935ec73add346854df4d1304.pdf)
 
 ## Free/libre open source project
 
