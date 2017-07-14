@@ -39,6 +39,8 @@ We should know our enemeies from RING 3/0/-1/-2 and espeically the "devil" from 
 * [intelmetool](https://github.com/zamaudio/intelmetool), get info from ME via [MEI interfaces](https://www.kernel.org/doc/Documentation/misc-devices/mei/mei.txt) on GNU/Linux
 * [MEAnalyzer](https://github.com/platomav/MEAnalyzer), show details of a image contains ME firmware.
 * [MCExtractor](https://github.com/platomav/MCExtractor), Intel, AMD & VIA Microcode Extraction Tool
+* [Huffman decompression for version 11.x Intel ME modules](https://github.com/IllegalArgument/Huffman11)
+* [Intel ME 11.x Firmware Images Unpacker](https://github.com/ptresearch/unME11)
 * [Intel ME (Manageability engine) Huffman algorithm](https://io.netgarage.org/me/)
 * [Intel Management Engine: Drivers, Firmware & System Tools](http://www.win-raid.com/t596f39-Intel-Management-Engine-Drivers-Firmware-amp-System-Tools.html), it's up-to-date Windows-only tools.
 
