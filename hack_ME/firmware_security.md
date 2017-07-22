@@ -18,6 +18,8 @@ Ring -2...
 * [UEFI  Firmware  Rootkits: Myths  and  Reality - 201703](https://www.blackhat.com/docs/asia-17/materials/asia-17-Matrosov-The-UEFI-Firmware-Rootkits-Myths-And-Reality.pdf)
 * [Attacking hypervisors through hardware emulation - 201703](https://www.troopers.de/downloads/troopers17/TR17_Attacking_hypervisor_through_hardwear_emulation.pdf)
 * [Training: Security of BIOS/UEFI System Firmware from Attacker and Defender Perspectives - 201705](https://github.com/advanced-threat-research/firmware-security-training)
+* [Digging Into The Core of Boot](https://recon.cx/2017/montreal/resources/slides/RECON-MTL-2017-DiggingIntoTheCoreOfBoot.pdf)
+
 
 ## Article/paper
 
