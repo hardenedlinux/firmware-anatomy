@@ -4,6 +4,7 @@
 
 We should know our enemeies from RING 3/0/-1/-2 and espeically the "devil" from RING -3 world.
 
+
 ## Slide
 
 * [Introducing Ring -3 Rootkit - 2009-08](https://www.blackhat.com/presentations/bh-usa-09/TERESHKIN/BHUSA09-Tereshkin-Ring3Rootkit-SLIDES.pdf)
@@ -16,6 +17,7 @@ We should know our enemeies from RING 3/0/-1/-2 and espeically the "devil" from 
 * [Intel ME: Two Years Later - 2014-10](https://github.com/skochinsky/papers/raw/master/2014-10%20%5BBreakpoint%5D%20Intel%20ME%20-%20Two%20Years%20Later.pdf)
 * [Reversing firmware using radare2 - 2014-10](http://xvilka.me/h2hc2014-reversing-firmware-radare-slides.pdf)
 * [Intel ME: The Way of the Static Analysis - 201703](https://www.troopers.de/downloads/troopers17/TR17_ME11_Static.pdf), [presentation video](https://www.youtube.com/watch?v=2_aokrfcoUk)
+
 
 ## Article/paper
 
@@ -33,7 +35,9 @@ We should know our enemeies from RING 3/0/-1/-2 and espeically the "devil" from 
 * [Safeguarding rootkits: Intel BootGuard - 2016-12](https://github.com/flothrone/bootguard), ME is original set as ["Manufacturing Mode" until "OEM Public Key Hash" and "Boot Guard Profile Configuration" being copied to CPU fuses](https://trmm.net/Bootguard) to make it either enable or disable. Alexander Ermolov shows us the ["Schrodinger's Bootguard" is neither in enabled or disabled](https://support.lenovo.com/us/en/solutions/len_9903), which can be exploited for further persistent uses.
 * [Reverse-engineering the Intel Management Engine’s ROMP module - 201705](https://puri.sm/posts/reverse-engineering-the-intel-management-engine-romp-module/), the [C pseudo code of ROMP module](https://github.com/kakaroto/purism-playground/tree/master/me_re) can help us better understand how it works.
 
+
 ## Free/libre open source tools
+
 * [me_cleaner](https://github.com/corna/me_cleaner/), neutralize the ME by minimizing its functions.
 * [me-tools](https://github.com/skochinsky/me-tools), extract code modules for further understanding.
 * [intelmetool](https://github.com/zamaudio/intelmetool), get info from ME via [MEI interfaces](https://www.kernel.org/doc/Documentation/misc-devices/mei/mei.txt) on GNU/Linux
@@ -44,11 +48,19 @@ We should know our enemeies from RING 3/0/-1/-2 and espeically the "devil" from 
 * [Intel ME (Manageability engine) Huffman algorithm](https://io.netgarage.org/me/)
 * [Intel Management Engine: Drivers, Firmware & System Tools](http://www.win-raid.com/t596f39-Intel-Management-Engine-Drivers-Firmware-amp-System-Tools.html), it's up-to-date Windows-only tools.
 
+
+## IDA Pro scripts
+
+* [meloader](https://github.com/embedi/meloader)
+
+
 ## Intel ME/"apps" advisory
+
 * [INTEL-SA-00075, CVE-2017-5689: Intel Active Management Technology, Intel Small Business Technology, and Intel Standard Manageability Escalation of Privilege - 20170501](https://security-center.intel.com/advisory.aspx?intelid=INTEL-SA-00075&languageid=en-fr), [vuln detection script](https://github.com/CerberusSecurity/CVE-2017-5689)
 * [INTEL-SA-00081, CVE-2017-5697: Intel AMT Clickjacking Vulnerability - Jun 5 2017](https://security-center.intel.com/advisory.aspx?intelid=INTEL-SA-00081&languageid=en-fr)
 
 ## News
+
 * [Red alert! Intel patches remote execution hole that's been hidden in biz, server chips since 2010 - 20170501](https://www.theregister.co.uk/2017/05/01/intel_amt_me_vulnerability/), [CVE-2017-5689](https://security-center.intel.com/advisory.aspx?intelid=INTEL-SA-00075&languageid=en-fr), [mjg59's write-up](https://mjg59.dreamwidth.org/48429.html) and [INTEL-SA-00075 Mitigation Guide](https://downloadcenter.intel.com/download/26754). Vendors like [SIEMENS fixed CVE-2017-5689](https://www.siemens.com/cert/pool/cert/siemens_security_advisory_ssa-874235.pdf) in late June.
 * [Intel & ME, and why we should get rid of ME](https://www.fsf.org/blogs/licensing/intel-me-and-why-we-should-get-rid-of-me), by FSF( Free software foundation)
 * [Researchers find vulnerability in older versions of Intel ME, but you probably don't need to worry](http://www.digitaltrends.com/computing/intel-me-vulnerability/)
