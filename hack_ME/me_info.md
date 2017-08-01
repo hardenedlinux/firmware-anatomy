@@ -34,7 +34,7 @@ We should know our enemeies from RING 3/0/-1/-2 and espeically the "devil" from 
 * [Neutralize ME firmware on SandyBridge and IvyBridge platforms](https://hardenedlinux.github.io/firmware/2016/11/17/neutralize_ME_firmware_on_sandybridge_and_ivybridge.html) is an operational manual and we [have done it on some mainboards](https://github.com/hardenedlinux/hardenedlinux_profiles/tree/master/coreboot)( including a Skylake-based one) so far.
 * [Safeguarding rootkits: Intel BootGuard - 2016-12](https://github.com/flothrone/bootguard), ME is original set as ["Manufacturing Mode" until "OEM Public Key Hash" and "Boot Guard Profile Configuration" being copied to CPU fuses](https://trmm.net/Bootguard) to make it either enable or disable. Alexander Ermolov shows us the ["Schrodinger's Bootguard" is neither in enabled or disabled](https://support.lenovo.com/us/en/solutions/len_9903), which can be exploited for further persistent uses.
 * [Reverse-engineering the Intel Management Engine’s ROMP module - 201705](https://puri.sm/posts/reverse-engineering-the-intel-management-engine-romp-module/), the [C pseudo code of ROMP module](https://github.com/kakaroto/purism-playground/tree/master/me_re) can help us better understand how it works.
-
+* [INTEL AMT. STEALTH BREAKTHROUGH](https://www.blackhat.com/docs/us-17/thursday/us-17-Evdokimov-Intel-AMT-Stealth-Breakthrough.pdf), [whiter paper](https://www.blackhat.com/docs/us-17/thursday/us-17-Evdokimov-Intel-AMT-Stealth-Breakthrough-wp.pdf).
 
 ## Free/libre open source tools
 
@@ -47,7 +47,7 @@ We should know our enemeies from RING 3/0/-1/-2 and espeically the "devil" from 
 * [Intel ME 11.x Firmware Images Unpacker](https://github.com/ptresearch/unME11)
 * [Intel ME (Manageability engine) Huffman algorithm](https://io.netgarage.org/me/)
 * [Intel Management Engine: Drivers, Firmware & System Tools](http://www.win-raid.com/t596f39-Intel-Management-Engine-Drivers-Firmware-amp-System-Tools.html), it's up-to-date Windows-only tools.
-
+* [meitools](https://github.com/embedi/meitools)
 
 ## IDA Pro scripts
 
