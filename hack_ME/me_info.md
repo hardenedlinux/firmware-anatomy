@@ -35,6 +35,7 @@ We should know our enemeies from RING 3/0/-1/-2 and espeically the "devil" from 
 * [Safeguarding rootkits: Intel BootGuard - 2016-12](https://github.com/flothrone/bootguard), ME is original set as ["Manufacturing Mode" until "OEM Public Key Hash" and "Boot Guard Profile Configuration" being copied to CPU fuses](https://trmm.net/Bootguard) to make it either enable or disable. Alexander Ermolov shows us the ["Schrodinger's Bootguard" is neither in enabled or disabled](https://support.lenovo.com/us/en/solutions/len_9903), which can be exploited for further persistent uses.
 * [Reverse-engineering the Intel Management Engine’s ROMP module - 201705](https://puri.sm/posts/reverse-engineering-the-intel-management-engine-romp-module/), the [C pseudo code of ROMP module](https://github.com/kakaroto/purism-playground/tree/master/me_re) can help us better understand how it works.
 * [INTEL AMT. STEALTH BREAKTHROUGH](https://www.blackhat.com/docs/us-17/thursday/us-17-Evdokimov-Intel-AMT-Stealth-Breakthrough.pdf), [whiter paper](https://www.blackhat.com/docs/us-17/thursday/us-17-Evdokimov-Intel-AMT-Stealth-Breakthrough-wp.pdf).
+* [Has Intel ME Analysis Tool Development Petered Out? - 201708](https://blog.fpmurphy.com/2017/08/has-intel-me-analysis-tool-development-petered-out.html)
 
 ## Free/libre open source tools
 
