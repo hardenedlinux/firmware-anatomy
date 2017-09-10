@@ -53,6 +53,8 @@ Ring -2...
 * [VIPER: Verifying the Integrity of PERipherals’ Firmware - 201110](https://pdfs.semanticscholar.org/4cde/50e94cada9bcaaec0f753e1b4dec3b6c355c.pdf)
 * [What if you can’t trust your network card? - 2011](https://pdfs.semanticscholar.org/82c0/086755479360935ec73add346854df4d1304.pdf)
 
+## Microcode
+* [Reverse Engineering x86 Processor Microcode](http://syssec.rub.de/media/emma/veroeffentlichungen/2017/08/16/usenix17-microcode.pdf)
 
 ## Free/libre open source project
 
