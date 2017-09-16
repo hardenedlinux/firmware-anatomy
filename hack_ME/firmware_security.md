@@ -54,7 +54,8 @@ Ring -2...
 * [What if you can’t trust your network card? - 2011](https://pdfs.semanticscholar.org/82c0/086755479360935ec73add346854df4d1304.pdf)
 
 ## Microcode
-* [Reverse Engineering x86 Processor Microcode](http://syssec.rub.de/media/emma/veroeffentlichungen/2017/08/16/usenix17-microcode.pdf)
+* [Notes on Intel Microcode Updates - 201212](http://inertiawar.com/microcode/)
+* [Reverse Engineering x86 Processor Microcode - 201708](http://syssec.rub.de/media/emma/veroeffentlichungen/2017/08/16/usenix17-microcode.pdf), [PoC code](https://github.com/RUB-SysSec/Microcode)
 
 ## Free/libre open source project
 
