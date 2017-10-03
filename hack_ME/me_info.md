@@ -73,6 +73,10 @@ We should know our enemeies from RING 3/0/-1/-2 and espeically the "devil" from 
 
 * [iDRAC](http://www.dell.com/support/manuals/us/en/19/idrac8-with-lc-v2.05.05.05/iDRAC8_2.05.05.05_UG-v1/Monitoring-Performance-Index-of-CPU-Memory-and-IO-Modules?guid=GUID-CC66A8FC-4644-4633-9B24-1EAF448BC4EC&lang=en-us)
 
+* Intel SGX
+  * [Malware Guard Extension: Using SGX to Conceal Cache Attacks - 201702](https://arxiv.org/abs/1702.08719)
+  * [DR.SGX: Hardening SGX Enclaves against Cache Attacks with Data Location Randomization](https://arxiv.org/abs/1709.09917)
+  * [Another Flip in the Wall of Rowhammer Defenses](https://arxiv.org/abs/1710.00551)
 
 ## Dark side of AMD
 

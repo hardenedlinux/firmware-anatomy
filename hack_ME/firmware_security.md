@@ -55,7 +55,7 @@ Ring -2...
 
 ## Microcode
 * [Notes on Intel Microcode Updates - 201212](http://inertiawar.com/microcode/)
-* [Reverse Engineering x86 Processor Microcode - 201708](http://syssec.rub.de/media/emma/veroeffentlichungen/2017/08/16/usenix17-microcode.pdf), [PoC code](https://github.com/RUB-SysSec/Microcode)
+* [Reverse Engineering x86 Processor Microcode - 201708](http://syssec.rub.de/media/emma/veroeffentlichungen/2017/08/16/usenix17-microcode.pdf), [video](https://www.youtube.com/watch?v=I6dQfnb3y0I) and [PoC code](https://github.com/RUB-SysSec/Microcode)
 
 ## Free/libre open source project
 
