@@ -38,6 +38,7 @@ We should know our enemeies from RING 3/0/-1/-2 and espeically the "devil" from 
 * [Has Intel ME Analysis Tool Development Petered Out? - 201708](https://blog.fpmurphy.com/2017/08/has-intel-me-analysis-tool-development-petered-out.html)
 * [Disabling Intel ME 11 via undocumented mode - 201708](http://blog.ptsecurity.com/2017/08/disabling-intel-me.html)
 * [Выключаем Intel ME 11, используя недокументированный режим](https://habrahabr.ru/company/pt/blog/336242/)
+* [Bypassing Intel Boot Guard - 201710](https://embedi.com/blog/bypassing-intel-boot-guard)
 
 
 ## Free/libre open source tools
