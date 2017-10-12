@@ -33,8 +33,8 @@ Ring -2...
 * [Malicious Code Execution in PCI Expansion ROM](http://resources.infosecinstitute.com/pci-expansion-rom/)
 * [BIOS Based Rootkits - 201306](http://www.exfiltrated.com/research-BIOS_Based_Rootkits.php)
 * [Hardware and firmware attacks: Defending, detecting, and responding](https://code.facebook.com/posts/182707188759117/hardware-and-firmware-attacks-defending-detecting-and-responding/), video is [here](https://www.youtube.com/watch?v=z4-N2HyQMVU).
-* [A Tour beyond BIOS Using Intel VT-d for DMA Protection in UEFI BIOS - 201501](https://firmware.intel.com/sites/default/files/resources/A_Tour_Beyond_BIOS_Using_Intel_VT-d_for_DMA_Protection.pdf)
-
+* [A Tour beyond BIOS Using Intel VT-d for DMA Protection in UEFI BIOS - 201501](https://firmware.intel.com/sites/default/files/resources/A_Tour_Beyond_BIOS_Using_Intel_VT-d_for_DMA_Protection.pdf), the [updated version](https://firmware.intel.com/sites/default/files/Intel_WhitePaper_Using_IOMMU_for_DMA_Protection_in_UEFI.pdf) is released in Oct 2017.
+* [Detecting BadBIOS, Evil Maids, Bootkits, and Other Firmware Malware - 201710](https://ia601507.us.archive.org/2/items/seagl-2017/seagl-2017.pdf)
 
 ## GPU-based attack
 * [GPU-Assisted Malware - 2010](http://dcs.ics.forth.gr/Activities/papers/gpumalware.malware10.pdf)
@@ -56,6 +56,9 @@ Ring -2...
 ## Microcode
 * [Notes on Intel Microcode Updates - 201212](http://inertiawar.com/microcode/)
 * [Reverse Engineering x86 Processor Microcode - 201708](http://syssec.rub.de/media/emma/veroeffentlichungen/2017/08/16/usenix17-microcode.pdf), [video](https://www.youtube.com/watch?v=I6dQfnb3y0I) and [PoC code](https://github.com/RUB-SysSec/Microcode)
+
+## TPM
+* [Chromebook: TPM firmware vulnerability: technical documentation - 201710](https://sites.google.com/a/chromium.org/dev/chromium-os/tpm_firmware_update)
 
 ## Free/libre open source project
 
