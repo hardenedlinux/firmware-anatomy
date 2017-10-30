@@ -19,6 +19,7 @@ Ring -2...
 * [Attacking hypervisors through hardware emulation - 201703](https://www.troopers.de/downloads/troopers17/TR17_Attacking_hypervisor_through_hardwear_emulation.pdf)
 * [Training: Security of BIOS/UEFI System Firmware from Attacker and Defender Perspectives - 201705](https://github.com/advanced-threat-research/firmware-security-training)
 * [Digging Into The Core of Boot](https://recon.cx/2017/montreal/resources/slides/RECON-MTL-2017-DiggingIntoTheCoreOfBoot.pdf)
+* [Replace Your Exploit-Ridden Firmware with Linux - 201710](https://schd.ws/hosted_files/osseu17/84/Replace%20UEFI%20with%20Linux.pdf), [video](https://www.youtube.com/watch?v=iffTJ1vPCSo)
 
 
 ## Article/paper
@@ -66,6 +67,9 @@ Ring -2...
 * [UEFITool](https://github.com/LongSoft/UEFITool)
 * [Firmware research timeline](http://timeglider.com/timeline/5ca2daa6078caaf4)
 
+### [coreboot](https://www.coreboot.org/)
+
+  * [heads/nerf](https://github.com/osresearch/heads)
 
 ## IDA Pro scripts
 
