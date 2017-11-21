@@ -37,7 +37,7 @@ We should know our enemeies from RING 3/0/-1/-2 and espeically the "devil" from 
 * [Reverse-engineering the Intel Management Engine’s ROMP module - 201705](https://puri.sm/posts/reverse-engineering-the-intel-management-engine-romp-module/), the [C pseudo code of ROMP module](https://github.com/kakaroto/purism-playground/tree/master/me_re) can help us better understand how it works and how crucial code modules of Intel ME could be exploited.
 * [INTEL AMT. STEALTH BREAKTHROUGH](https://www.blackhat.com/docs/us-17/thursday/us-17-Evdokimov-Intel-AMT-Stealth-Breakthrough.pdf), [whiter paper](https://www.blackhat.com/docs/us-17/thursday/us-17-Evdokimov-Intel-AMT-Stealth-Breakthrough-wp.pdf).
 * [Has Intel ME Analysis Tool Development Petered Out? - 201708](https://blog.fpmurphy.com/2017/08/has-intel-me-analysis-tool-development-petered-out.html), the 1st time disclosure to the public about >= MEv11 are running MINIX-based OS.
-* [Disabling Intel ME 11 via undocumented mode - 201708](http://blog.ptsecurity.com/2017/08/disabling-intel-me.html), HAP/altdisable bit is fully disclosured to the public that NSA treats Intel ME as a risk which unlike to avoid without high cost, so they have Intel added a killswitch for their defensive program.
+* [Disabling Intel ME 11 via undocumented mode - 201708](http://blog.ptsecurity.com/2017/08/disabling-intel-me.html), HAP/AltMeDisable bit is fully disclosured to the public that NSA treats Intel ME as a risk which unlike to avoid without high cost, so they have Intel added a killswitch for their defensive program.
 * [Выключаем Intel ME 11, используя недокументированный режим](https://habrahabr.ru/company/pt/blog/336242/)
 * [Bypassing Intel Boot Guard - 201710](https://embedi.com/blog/bypassing-intel-boot-guard)
 * [Deep dive into Intel Management Engine disablement - 201710](https://puri.sm/posts/deep-dive-into-intel-me-disablement/)
@@ -66,6 +66,8 @@ We should know our enemeies from RING 3/0/-1/-2 and espeically the "devil" from 
 
 * [INTEL-SA-00075, CVE-2017-5689: Intel Active Management Technology, Intel Small Business Technology, and Intel Standard Manageability Escalation of Privilege - 20170501](https://security-center.intel.com/advisory.aspx?intelid=INTEL-SA-00075&languageid=en-fr), [vuln detection script](https://github.com/CerberusSecurity/CVE-2017-5689)
 * [INTEL-SA-00081, CVE-2017-5697: Intel AMT Clickjacking Vulnerability - Jun 5 2017](https://security-center.intel.com/advisory.aspx?intelid=INTEL-SA-00081&languageid=en-fr)
+* [CVE-2017-5705/INTEL-SA-00086: memory corruption affected ME 11.x, SPS 4.0, and TXE 3.0 - Nov 2017](https://security-center.intel.com/advisory.aspx?intelid=INTEL-SA-00086&languageid=en-fr)
+
 
 ## News
 
@@ -81,6 +83,8 @@ We should know our enemeies from RING 3/0/-1/-2 and espeically the "devil" from 
   * [Malware Guard Extension: Using SGX to Conceal Cache Attacks - 201702](https://arxiv.org/abs/1702.08719)
   * [DR.SGX: Hardening SGX Enclaves against Cache Attacks with Data Location Randomization](https://arxiv.org/abs/1709.09917)
   * [Another Flip in the Wall of Rowhammer Defenses](https://arxiv.org/abs/1710.00551)
+  * [SGX-Bomb: Locking Down the Processor via Rowhammer Attack - 2017](https://sslab.gtisc.gatech.edu/assets/papers/2017/jang:sgx-bomb.pdf)
+
 
 ## Dark side of AMD
 
