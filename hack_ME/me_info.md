@@ -56,6 +56,8 @@ We should know our enemeies from RING 3/0/-1/-2 and espeically the "devil" from 
 * [Intel ME (Manageability engine) Huffman algorithm](https://io.netgarage.org/me/)
 * [Intel Management Engine: Drivers, Firmware & System Tools](http://www.win-raid.com/t596f39-Intel-Management-Engine-Drivers-Firmware-amp-System-Tools.html), it's up-to-date Windows-only tools.
 * [meitools](https://github.com/embedi/meitools)
+* [jeff-tools](https://github.com/skochinsky/jeff-tools), can unpack the applets from JEFF files used by Intel ME's DAL.
+
 
 ## IDA Pro scripts
 
@@ -75,6 +77,7 @@ We should know our enemeies from RING 3/0/-1/-2 and espeically the "devil" from 
 * [Intel & ME, and why we should get rid of ME](https://www.fsf.org/blogs/licensing/intel-me-and-why-we-should-get-rid-of-me), by FSF( Free software foundation)
 * [Researchers find vulnerability in older versions of Intel ME, but you probably don't need to worry](http://www.digitaltrends.com/computing/intel-me-vulnerability/)
 
+
 ## ME "apps"
 
 * [iDRAC](http://www.dell.com/support/manuals/us/en/19/idrac8-with-lc-v2.05.05.05/iDRAC8_2.05.05.05_UG-v1/Monitoring-Performance-Index-of-CPU-Memory-and-IO-Modules?guid=GUID-CC66A8FC-4644-4633-9B24-1EAF448BC4EC&lang=en-us)
@@ -84,6 +87,7 @@ We should know our enemeies from RING 3/0/-1/-2 and espeically the "devil" from 
   * [DR.SGX: Hardening SGX Enclaves against Cache Attacks with Data Location Randomization](https://arxiv.org/abs/1709.09917)
   * [Another Flip in the Wall of Rowhammer Defenses](https://arxiv.org/abs/1710.00551)
   * [SGX-Bomb: Locking Down the Processor via Rowhammer Attack - 2017](https://sslab.gtisc.gatech.edu/assets/papers/2017/jang:sgx-bomb.pdf)
+  * [Some notes on the Monotonic Counter in Intel SGX and ME - 201711](https://davejingtian.org/2017/11/10/some-notes-on-the-monotonic-counter-in-intel-sgx-and-me/)
 
 
 ## Dark side of AMD
