@@ -18,6 +18,7 @@ We should know our enemeies from RING 3/0/-1/-2 and espeically the "devil" from 
 * [Reversing firmware using radare2 - 2014-10](http://xvilka.me/h2hc2014-reversing-firmware-radare-slides.pdf)
 * [Intel ME: The Way of the Static Analysis - 201703](https://www.troopers.de/downloads/troopers17/TR17_ME11_Static.pdf), [presentation video](https://www.youtube.com/watch?v=2_aokrfcoUk)
 * [Intel AMT: Using & Abusing the Ghost in the Machine - 201710](https://drive.google.com/file/d/0BxMgdZPXsSLBYTBpWXZoRFJXZk0/view), [video](https://www.youtube.com/watch?v=aiMNbjzYMXo)
+* [How to Hack a Turned - Off Computer, or Running Unsigned Code in Intel Management Engine - 201712](https://www.blackhat.com/docs/eu-17/materials/eu-17-Goryachy-How-To-Hack-A-Turned-Off-Computer-Or-Running-Unsigned-Code-In-Intel-Management-Engine.pdf)
 
 
 ## Article/paper
@@ -42,6 +43,7 @@ We should know our enemeies from RING 3/0/-1/-2 and espeically the "devil" from 
 * [Bypassing Intel Boot Guard - 201710](https://embedi.com/blog/bypassing-intel-boot-guard)
 * [Deep dive into Intel Management Engine disablement - 201710](https://puri.sm/posts/deep-dive-into-intel-me-disablement/)
 * [JTAG в каждый дом: полный доступ через USB - 201711](https://habrahabr.ru/company/pt/blog/341946/), Intel ME memory can be full access by JTAG debugging via USB DCI, which could also possibily doing SMRAM dump for the forensics.
+* [Восстановление таблиц Хаффмана в Intel ME 11.x - 201712)(https://habrahabr.ru/company/pt/blog/344056/), [English version: Recovering Huffman tables in Intel ME 11.x](http://blog.ptsecurity.com/2017/12/huffman-tables-intel-me.html)
 
 
 ## Free/libre open source tools
