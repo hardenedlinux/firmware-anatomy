@@ -36,6 +36,8 @@ Ring -2...
 * [Hardware and firmware attacks: Defending, detecting, and responding](https://code.facebook.com/posts/182707188759117/hardware-and-firmware-attacks-defending-detecting-and-responding/), video is [here](https://www.youtube.com/watch?v=z4-N2HyQMVU).
 * [A Tour beyond BIOS Using Intel VT-d for DMA Protection in UEFI BIOS - 201501](https://firmware.intel.com/sites/default/files/resources/A_Tour_Beyond_BIOS_Using_Intel_VT-d_for_DMA_Protection.pdf), the [updated version](https://firmware.intel.com/sites/default/files/Intel_WhitePaper_Using_IOMMU_for_DMA_Protection_in_UEFI.pdf) is released in Oct 2017.
 * [Detecting BadBIOS, Evil Maids, Bootkits, and Other Firmware Malware - 201710](https://ia601507.us.archive.org/2/items/seagl-2017/seagl-2017.pdf)
+* [Reverse engineering the Intel FSP… a primer guide! - 201711](https://puri.sm/posts/primer-to-reverse-engineering-intel-fsp/)
+
 
 ## GPU-based attack
 * [GPU-Assisted Malware - 2010](http://dcs.ics.forth.gr/Activities/papers/gpumalware.malware10.pdf)
