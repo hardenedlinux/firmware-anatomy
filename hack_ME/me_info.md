@@ -18,7 +18,8 @@ We should know our enemeies from RING 3/0/-1/-2 and espeically the "devil" from 
 * [Reversing firmware using radare2 - 2014-10](http://xvilka.me/h2hc2014-reversing-firmware-radare-slides.pdf)
 * [Intel ME: The Way of the Static Analysis - 201703](https://www.troopers.de/downloads/troopers17/TR17_ME11_Static.pdf), [presentation video](https://www.youtube.com/watch?v=2_aokrfcoUk)
 * [Intel AMT: Using & Abusing the Ghost in the Machine - 201710](https://drive.google.com/file/d/0BxMgdZPXsSLBYTBpWXZoRFJXZk0/view), [video](https://www.youtube.com/watch?v=aiMNbjzYMXo)
-* [How to Hack a Turned - Off Computer, or Running Unsigned Code in Intel Management Engine - 201712](https://www.blackhat.com/docs/eu-17/materials/eu-17-Goryachy-How-To-Hack-A-Turned-Off-Computer-Or-Running-Unsigned-Code-In-Intel-Management-Engine.pdf)
+* [How to Hack a Turned - Off Computer, or Running Unsigned Code in Intel Management Engine - 201712](https://www.blackhat.com/docs/eu-17/materials/eu-17-Goryachy-How-To-Hack-A-Turned-Off-Computer-Or-Running-Unsigned-Code-In-Intel-Management-Engine.pdf), [white paper](https://www.blackhat.com/docs/eu-17/materials/eu-17-Goryachy-How-To-Hack-A-Turned-Off-Computer-Or-Running-Unsigned-Code-In-Intel-Management-Engine-wp.pdf).
+* [Intel ME: Flash File System Explained: https://www.blackhat.com/docs/eu-17/materials/eu-17-Sklyarov-Intel-ME-Flash-File-System-Explained.pdf - 201712], [whiter paper](https://www.blackhat.com/docs/eu-17/materials/eu-17-Sklyarov-Intel-ME-Flash-File-System-Explained-wp.pdf).
 
 
 ## Article/paper
