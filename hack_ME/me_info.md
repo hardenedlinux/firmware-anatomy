@@ -20,6 +20,7 @@ We should know our enemeies from RING 3/0/-1/-2 and espeically the "devil" from 
 * [Intel AMT: Using & Abusing the Ghost in the Machine - 201710](https://drive.google.com/file/d/0BxMgdZPXsSLBYTBpWXZoRFJXZk0/view), [video](https://www.youtube.com/watch?v=aiMNbjzYMXo)
 * [How to Hack a Turned - Off Computer, or Running Unsigned Code in Intel Management Engine - 201712](https://www.blackhat.com/docs/eu-17/materials/eu-17-Goryachy-How-To-Hack-A-Turned-Off-Computer-Or-Running-Unsigned-Code-In-Intel-Management-Engine.pdf), [white paper](https://www.blackhat.com/docs/eu-17/materials/eu-17-Goryachy-How-To-Hack-A-Turned-Off-Computer-Or-Running-Unsigned-Code-In-Intel-Management-Engine-wp.pdf).
 * [Intel ME: Flash File System Explained: https://www.blackhat.com/docs/eu-17/materials/eu-17-Sklyarov-Intel-ME-Flash-File-System-Explained.pdf - 201712], [whiter paper](https://www.blackhat.com/docs/eu-17/materials/eu-17-Sklyarov-Intel-ME-Flash-File-System-Explained-wp.pdf).
+* [Inside Intel Management Engine - 201712](https://media.ccc.de/v/34c3-8762-inside_intel_management_engine)
 
 
 ## Article/paper
@@ -45,6 +46,7 @@ We should know our enemeies from RING 3/0/-1/-2 and espeically the "devil" from 
 * [Deep dive into Intel Management Engine disablement - 201710](https://puri.sm/posts/deep-dive-into-intel-me-disablement/)
 * [JTAG в каждый дом: полный доступ через USB - 201711](https://habrahabr.ru/company/pt/blog/341946/), Intel ME memory can be full access by JTAG debugging via USB DCI, which could also possibily doing SMRAM dump for the forensics.
 * [Восстановление таблиц Хаффмана в Intel ME 11.x - 201712)(https://habrahabr.ru/company/pt/blog/344056/), [English version: Recovering Huffman tables in Intel ME 11.x](http://blog.ptsecurity.com/2017/12/huffman-tables-intel-me.html)
+* [The Intel Management Engine - 201712](https://bitkeks.eu/blog/2017/12/the-intel-management-engine.html)
 
 
 ## Free/libre open source tools
