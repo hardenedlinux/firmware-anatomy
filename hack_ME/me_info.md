@@ -21,6 +21,7 @@ We should know our enemeies from RING 3/0/-1/-2 and espeically the "devil" from 
 * [How to Hack a Turned - Off Computer, or Running Unsigned Code in Intel Management Engine - 201712](https://www.blackhat.com/docs/eu-17/materials/eu-17-Goryachy-How-To-Hack-A-Turned-Off-Computer-Or-Running-Unsigned-Code-In-Intel-Management-Engine.pdf), [white paper](https://www.blackhat.com/docs/eu-17/materials/eu-17-Goryachy-How-To-Hack-A-Turned-Off-Computer-Or-Running-Unsigned-Code-In-Intel-Management-Engine-wp.pdf).
 * [Intel ME: Flash File System Explained: https://www.blackhat.com/docs/eu-17/materials/eu-17-Sklyarov-Intel-ME-Flash-File-System-Explained.pdf - 201712], [whiter paper](https://www.blackhat.com/docs/eu-17/materials/eu-17-Sklyarov-Intel-ME-Flash-File-System-Explained-wp.pdf).
 * [Inside Intel Management Engine - 201712](https://media.ccc.de/v/34c3-8762-inside_intel_management_engine)
+* [Intel ME: Myths and reality - 201712](https://media.ccc.de/v/34c3-8782-intel_me_myths_and_reality)
 
 
 ## Article/paper
