@@ -85,3 +85,4 @@ Ring -2...
 * [NIST SP 800-147: BIOS Protection Guidelines 201104](http://nvlpubs.nist.gov/nistpubs/Legacy/SP/nistspecialpublication800-147.pdf)
 * [NIST SP 800-147B: BIOS Protection Guidelines for Servers](http://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-147B.pdf)
 * [NIST SP 800-193: DRAFT Platform Firmware Resiliency Guidelines](http://csrc.nist.gov/publications/PubsDrafts.html#SP-800-193)
+* [NCSC-UK: EUD Security Guidance: Windows 10 - 1703](https://www.ncsc.gov.uk/guidance/eud-security-guidance-windows-10-1703#devicefirmware)
