@@ -74,7 +74,7 @@ We should know our enemeies from RING 3/0/-1/-2 and espeically the "devil" from 
 
 * [INTEL-SA-00075, CVE-2017-5689: Intel Active Management Technology, Intel Small Business Technology, and Intel Standard Manageability Escalation of Privilege - 20170501](https://security-center.intel.com/advisory.aspx?intelid=INTEL-SA-00075&languageid=en-fr), [vuln detection script](https://github.com/CerberusSecurity/CVE-2017-5689)
 * [INTEL-SA-00081, CVE-2017-5697: Intel AMT Clickjacking Vulnerability - Jun 5 2017](https://security-center.intel.com/advisory.aspx?intelid=INTEL-SA-00081&languageid=en-fr)
-* [CVE-2017-5705/INTEL-SA-00086: memory corruption affected ME 11.x, SPS 4.0, and TXE 3.0 - Nov 2017](https://security-center.intel.com/advisory.aspx?intelid=INTEL-SA-00086&languageid=en-fr)
+* [CVE-2017-5705/INTEL-SA-00086: memory corruption affected ME 11.x, SPS 4.0, and TXE 3.0 - Nov 2017](https://security-center.intel.com/advisory.aspx?intelid=INTEL-SA-00086&languageid=en-fr), Intel released a [detection tool](https://downloadcenter.intel.com/download/27150) for GNU/Linux can determine the status of SPS at runtime.
 
 
 ## News
