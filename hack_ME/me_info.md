@@ -77,6 +77,11 @@ We should know our enemeies from RING 3/0/-1/-2 and espeically the "devil" from 
 * [CVE-2017-5705/INTEL-SA-00086: memory corruption affected ME 11.x, SPS 4.0, and TXE 3.0 - Nov 2017](https://security-center.intel.com/advisory.aspx?intelid=INTEL-SA-00086&languageid=en-fr), Intel released a [detection tool](https://downloadcenter.intel.com/download/27150) for GNU/Linux can determine the status of SPS at runtime.
 
 
+## AMD PSP advisory
+
+* [13 vulns in AMD PSP - 201803](https://safefirmware.com/amdflaws_whitepaper.pdf)
+
+
 ## News
 
 * [Red alert! Intel patches remote execution hole that's been hidden in biz, server chips since 2010 - 20170501](https://www.theregister.co.uk/2017/05/01/intel_amt_me_vulnerability/), [CVE-2017-5689](https://security-center.intel.com/advisory.aspx?intelid=INTEL-SA-00075&languageid=en-fr), [mjg59's write-up](https://mjg59.dreamwidth.org/48429.html) and [INTEL-SA-00075 Mitigation Guide](https://downloadcenter.intel.com/download/26754). Vendors like [SIEMENS fixed CVE-2017-5689](https://www.siemens.com/cert/pool/cert/siemens_security_advisory_ssa-874235.pdf) in late June.

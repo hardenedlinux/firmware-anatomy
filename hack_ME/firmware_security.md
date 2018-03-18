@@ -38,6 +38,9 @@ Ring -2...
 * [Detecting BadBIOS, Evil Maids, Bootkits, and Other Firmware Malware - 201710](https://ia601507.us.archive.org/2/items/seagl-2017/seagl-2017.pdf)
 * [Reverse engineering the Intel FSP… a primer guide! - 201711](https://puri.sm/posts/primer-to-reverse-engineering-intel-fsp/)
 
+## Intel docs
+* [PCIe* Device Security Enhancements Specification](https://www.intel.com/content/www/us/en/io/pci-express/pcie-device-security-enhancements-spec.html)
+
 
 ## GPU-based attack
 * [GPU-Assisted Malware - 2010](http://dcs.ics.forth.gr/Activities/papers/gpumalware.malware10.pdf)
@@ -59,9 +62,12 @@ Ring -2...
 ## Microcode
 * [Notes on Intel Microcode Updates - 201212](http://inertiawar.com/microcode/)
 * [Reverse Engineering x86 Processor Microcode - 201708](http://syssec.rub.de/media/emma/veroeffentlichungen/2017/08/16/usenix17-microcode.pdf), [video](https://www.youtube.com/watch?v=I6dQfnb3y0I) and [PoC code](https://github.com/RUB-SysSec/Microcode)
+* [Decompiler internals: microcode - 201802](https://recon.cx/2018/brussels/resources/slides/RECON-BRX-2018-Decompiler-internals-microcode.pdf)
 
 ## TPM
 * [Chromebook: TPM firmware vulnerability: technical documentation - 201710](https://sites.google.com/a/chromium.org/dev/chromium-os/tpm_firmware_update)
+* [TPM Genie: I2C bus interposer for discrete TPMs](https://github.com/nccgroup/TPMGenie)
+
 
 ## Free/libre open source project
 
@@ -69,9 +75,12 @@ Ring -2...
 * [UEFITool](https://github.com/LongSoft/UEFITool)
 * [Firmware research timeline](http://timeglider.com/timeline/5ca2daa6078caaf4)
 
+
 ### [coreboot](https://www.coreboot.org/)
 
   * [heads/nerf](https://github.com/osresearch/heads)
+  * [linuxboot](https://github.com/linuxboot/linuxboot)
+
 
 ## IDA Pro scripts
 
