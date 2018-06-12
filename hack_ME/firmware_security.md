@@ -81,12 +81,21 @@ Ring -2...
   * [heads/nerf](https://github.com/osresearch/heads)
   * [linuxboot](https://github.com/linuxboot/linuxboot)
 
+### Attestation
+
+  * [Firmware TPM and SSL/TLS Protocol based Remote Attestation Framework for UEFI Secure Booting](https://github.com/Hecmay/UEFI-Attestation)
+
 
 ## IDA Pro scripts
 
 * [ida-efiutils](https://github.com/snare/ida-efiutils)
 * [EFISwissKnife](https://github.com/gdbinit/EFISwissKnife)
 * [IDAPython-scripts-for-UEFI-analisys](https://github.com/kyurchenko/IDAPython-scripts-for-UEFI-analisys)
+
+
+## Vendor advisory
+
+* [Unsafe Opcodes exposed in Intel SPI based products( INTEL-SA-00087/CVE-2017-5703)](https://security-center.intel.com/advisory.aspx?intelid=INTEL-SA-00087&languageid=en-fr), Lenovo released the [patch](https://support.lenovo.com/us/en/solutions/LEN-16445).
 
 
 ## Crazy security standard/Compliance

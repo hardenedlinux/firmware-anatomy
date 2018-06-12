@@ -22,6 +22,7 @@ We should know our enemeies from RING 3/0/-1/-2 and espeically the "devil" from 
 * [Intel ME: Flash File System Explained: https://www.blackhat.com/docs/eu-17/materials/eu-17-Sklyarov-Intel-ME-Flash-File-System-Explained.pdf - 201712], [whiter paper](https://www.blackhat.com/docs/eu-17/materials/eu-17-Sklyarov-Intel-ME-Flash-File-System-Explained-wp.pdf).
 * [Inside Intel Management Engine - 201712](https://media.ccc.de/v/34c3-8762-inside_intel_management_engine)
 * [Intel ME: Myths and reality - 201712](https://media.ccc.de/v/34c3-8782-intel_me_myths_and_reality)
+* [Intel ME Security keys Genealogy, Obfuscation and other Magic - 201807](https://github.com/ptresearch/IntelME-Crypto/blob/master/Intel%20ME%20Security%20keys%20Genealogy%2C%20Obfuscation%20and%20other%20Magic.pdf)
 
 
 ## Article/paper
@@ -48,6 +49,7 @@ We should know our enemeies from RING 3/0/-1/-2 and espeically the "devil" from 
 * [JTAG в каждый дом: полный доступ через USB - 201711](https://habrahabr.ru/company/pt/blog/341946/), Intel ME memory can be full access by JTAG debugging via USB DCI, which could also possibily doing SMRAM dump for the forensics.
 * [Восстановление таблиц Хаффмана в Intel ME 11.x - 201712)(https://habrahabr.ru/company/pt/blog/344056/), [English version: Recovering Huffman tables in Intel ME 11.x](http://blog.ptsecurity.com/2017/12/huffman-tables-intel-me.html)
 * [The Intel Management Engine - 201712](https://bitkeks.eu/blog/2017/12/the-intel-management-engine.html)
+* [Как взломать выключенный компьютер или выполнить код в Intel ME( How to run code in Intel ME) - 201801](http://blog.ptsecurity.ru/2018/01/intel-me.html)
 
 
 ## Free/libre open source tools
@@ -63,6 +65,9 @@ We should know our enemeies from RING 3/0/-1/-2 and espeically the "devil" from 
 * [Intel Management Engine: Drivers, Firmware & System Tools](http://www.win-raid.com/t596f39-Intel-Management-Engine-Drivers-Firmware-amp-System-Tools.html), it's up-to-date Windows-only tools.
 * [meitools](https://github.com/embedi/meitools)
 * [jeff-tools](https://github.com/skochinsky/jeff-tools), can unpack the applets from JEFF files used by Intel ME's DAL.
+* [unME11](https://github.com/ptresearch/unME11), Intel ME 11.x Firmware Images Unpacker 
+* [parseMFS](https://github.com/ptresearch/parseMFS), Python 2.7 scripts for parsing MFS/MFSB partition and extracting contained files.
+* [unME12](https://github.com/ptresearch/unME12), Intel ME 12.x Firmware Images Unpacker
 
 
 ## IDA Pro scripts
@@ -99,6 +104,7 @@ We should know our enemeies from RING 3/0/-1/-2 and espeically the "devil" from 
   * [Another Flip in the Wall of Rowhammer Defenses](https://arxiv.org/abs/1710.00551)
   * [SGX-Bomb: Locking Down the Processor via Rowhammer Attack - 2017](https://sslab.gtisc.gatech.edu/assets/papers/2017/jang:sgx-bomb.pdf)
   * [Some notes on the Monotonic Counter in Intel SGX and ME - 201711](https://davejingtian.org/2017/11/10/some-notes-on-the-monotonic-counter-in-intel-sgx-and-me/)
+  * [CacheQuote: Efficiently Recovering Long-termSecrets of SGX EPID via Cache Attacks - 2018](https://tches.iacr.org/index.php/TCHES/article/view/879/831)
 
 
 ## Dark side of AMD
