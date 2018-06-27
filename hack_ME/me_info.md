@@ -98,13 +98,28 @@ We should know our enemeies from RING 3/0/-1/-2 and espeically the "devil" from 
 
 * [iDRAC](http://www.dell.com/support/manuals/us/en/19/idrac8-with-lc-v2.05.05.05/iDRAC8_2.05.05.05_UG-v1/Monitoring-Performance-Index-of-CPU-Memory-and-IO-Modules?guid=GUID-CC66A8FC-4644-4633-9B24-1EAF448BC4EC&lang=en-us)
 
-* Intel SGX
+### Intel SGX
   * [Malware Guard Extension: Using SGX to Conceal Cache Attacks - 201702](https://arxiv.org/abs/1702.08719)
   * [DR.SGX: Hardening SGX Enclaves against Cache Attacks with Data Location Randomization](https://arxiv.org/abs/1709.09917)
   * [Another Flip in the Wall of Rowhammer Defenses](https://arxiv.org/abs/1710.00551)
   * [SGX-Bomb: Locking Down the Processor via Rowhammer Attack - 2017](https://sslab.gtisc.gatech.edu/assets/papers/2017/jang:sgx-bomb.pdf)
   * [Some notes on the Monotonic Counter in Intel SGX and ME - 201711](https://davejingtian.org/2017/11/10/some-notes-on-the-monotonic-counter-in-intel-sgx-and-me/)
   * [CacheQuote: Efficiently Recovering Long-termSecrets of SGX EPID via Cache Attacks - 2018](https://tches.iacr.org/index.php/TCHES/article/view/879/831)
+  * [ZeroTrace: Oblivious Memory Primitives from Intel SGX - 2018](https://eprint.iacr.org/2017/549.pdf), [source code](https://github.com/sshsshy/ZeroTrace).
+
+#### Intel SGX implementation
+  * [Intel SGX for Linux*](https://github.com/intel/linux-sgx),  comprised of the Intel(R) SGX driver, the Intel(R) SGX SDK, and the Intel(R) SGX Platform Software (PSW).
+  * [Microsoft Haven](https://www.microsoft.com/en-us/research/publication/shielding-applications-from-an-untrusted-cloud-with-haven/)
+  * [SCONE: Secure Linux Containers with Intel SGX](https://www.usenix.org/system/files/conference/osdi16/osdi16-arnautov.pdf)
+  * [Graphene Library OS with Intelregistered SGX Support](https://github.com/oscarlab/graphene)
+  * [Panoply: Low-TCB Linux Applications with SGX Enclaves](https://shwetasshinde24.github.io/Panoply/), the paper is [here](http://www.comp.nus.edu.sg/~tsunami/papers/panoply_ndss17.pdf).
+
+##### ITL
+
+  * [Trusted Execution In Untrusted Cloud - 201112](https://blog.invisiblethings.org/2011/12/13/trusted-execution-in-untrusted-cloud.html)
+  * [Thoughts on Intel's upcoming Software Guard Extensions (Part 1) - 201308](https://blog.invisiblethings.org/2013/08/30/thoughts-on-intels-upcoming-software.html)
+  * [Thoughts on Intel's upcoming Software Guard Extensions (Part 2) - 201309](https://blog.invisiblethings.org/2013/09/23/thoughts-on-intels-upcoming-software.html)
+  * [Introducing graphene-ng: running arbitrary payloads in SGX enclaves - 201806](https://blog.invisiblethings.org/2018/06/11/graphene-ng.html)
 
 
 ## Dark side of AMD
