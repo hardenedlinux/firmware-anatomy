@@ -46,7 +46,8 @@ NR START   END SECTORS  SIZE NAME               UUID
  2    86 32701   32616 15.9M bare-metal program 7c3f492f-88ef-5a49-a1c6-85745a1bfa31
 
 # dd if=/dev/loop0p1 of=dump.bin
-# riscv64-unknown-linux-gnu-as ld.s -o fsbl.bin
+# riscv64-unknown-linux-gnu-as inc.s -o inc.o
+# riscv64-unknown-linux-gnu-ld -T linker.ld inc.o -o fsbl.elf
 ```
 
 ## Dissecting our "evil" blob( sure it's not Bob)
@@ -54,7 +55,7 @@ NR START   END SECTORS  SIZE NAME               UUID
 File info: 
 
 ```
-rabin2 -I fsbl.bin 
+rabin2 -I fsbl.elf 
 Warning: Cannot initialize program headers
 Warning: Cannot initialize dynamic strings
 Warning: Cannot initialize dynamic section
