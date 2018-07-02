@@ -22,6 +22,15 @@ Our target should be looks like this:
 
 coreboot is supposed to replace FSBL/BBL but [FSBL](https://mail.coreboot.org/pipermail/coreboot/2018-June/086967.html) is not open source. Due to some reasons( NDA?), SiFive wouldn't provide either source code or DRAM controller config register value. Fortunately, [SiFive seems](https://forums.sifive.com/t/ddr-controller-configuration-register-values-for-hifive-unleashed/1334/3) ok about people getting it by reverse engineering. We dump the FSBL binary blob and it's about ~9k LoC( asm). Well, it should be easier than reversing Intel FSP( even in case of which IDA Pro decompiler doesn't work here).
 
+## Update: Jul 2 2018
+
+SiFive decided to [release the full source code of HiFive Unleashed](https://forums.sifive.com/t/ddr-controller-configuration-register-values-for-hifive-unleashed/1334/8) shortly and that's an awesome news. IMOHO, we still need RE tools if other vendor/board doesn't open source in the future.
+
+
+## RE issues
+
+  * We tried reversing the fsbl binary blob a bit via r2 and figured that the disasm code is not good as expected. This issue led to [r2 is not using](https://github.com/radare/radare2/tree/master/libr/asm/arch/riscv) [capstone](http://www.capstone-engine.org/) which is based on llvm. Capstone will [support partial implementation of RISCV32IMAFD and RISCV64IMAFD](https://github.com/aquynh/capstone/pull/1131) soon since [riscv-llvm seems need more time](http://www.lowrisc.org/llvm/status/) to landing the upstream.
+
 
 ## Prerequisites
 
@@ -55,7 +64,7 @@ NR START   END SECTORS  SIZE NAME               UUID
 File info: 
 
 ```
-rabin2 -I fsbl.elf 
+# rabin2 -I fsbl.elf 
 Warning: Cannot initialize program headers
 Warning: Cannot initialize dynamic strings
 Warning: Cannot initialize dynamic section
