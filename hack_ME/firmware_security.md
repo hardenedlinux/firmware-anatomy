@@ -38,7 +38,17 @@ Ring -2...
 * [Detecting BadBIOS, Evil Maids, Bootkits, and Other Firmware Malware - 201710](https://ia601507.us.archive.org/2/items/seagl-2017/seagl-2017.pdf)
 * [Reverse engineering the Intel FSP… a primer guide! - 201711](https://puri.sm/posts/primer-to-reverse-engineering-intel-fsp/)
 
+
+## BootJail
+
+* [Intel Boot Guard research - 2016](https://github.com/flothrone/bootguard)
+* [Safeguarding rootkits: Intel BootGuard - 2016-12](https://github.com/flothrone/bootguard), ME is original set as ["Manufacturing Mode" until "OEM Public Key Hash" and "Boot Guard Profile Configuration" being copied to CPU fuses](https://trmm.net/Bootguard) to make it either enable or disable. Alexander Ermolov shows us the ["Schrodinger's Bootguard" is neither in enabled or disabled](https://support.lenovo.com/us/en/solutions/len_9903), which can be exploited for further persistent uses.
+* [BETRAYING THE BIOS: WHERE THE GUARDIANS OF THE BIOS ARE FAILING - 201708](https://www.blackhat.com/docs/us-17/wednesday/us-17-Matrosov-Betraying-The-BIOS-Where-The-Guardians-Of-The-BIOS-Are-Failing.pdf)
+* [Bypassing Intel Boot Guard - 201710](https://embedi.com/blog/bypassing-intel-boot-guard)
+
+
 ## Intel docs
+
 * [PCIe* Device Security Enhancements Specification](https://www.intel.com/content/www/us/en/io/pci-express/pcie-device-security-enhancements-spec.html)
 
 
