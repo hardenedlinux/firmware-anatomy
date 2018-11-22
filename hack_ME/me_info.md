@@ -66,6 +66,7 @@ We should know our enemeies from RING 3/0/-1/-2 and espeically the "devil" from 
 * [unME11](https://github.com/ptresearch/unME11), Intel ME 11.x Firmware Images Unpacker 
 * [parseMFS](https://github.com/ptresearch/parseMFS), Python 2.7 scripts for parsing MFS/MFSB partition and extracting contained files.
 * [unME12](https://github.com/ptresearch/unME12), Intel ME 12.x Firmware Images Unpacker
+* [Intel Management Engine JTAG Proof of Concept](https://github.com/ptresearch/IntelTXE-PoC)
 
 
 ## IDA Pro scripts
@@ -111,6 +112,7 @@ We should know our enemeies from RING 3/0/-1/-2 and espeically the "devil" from 
   * [SCONE: Secure Linux Containers with Intel SGX](https://www.usenix.org/system/files/conference/osdi16/osdi16-arnautov.pdf)
   * [Graphene Library OS with Intelregistered SGX Support](https://github.com/oscarlab/graphene)
   * [Panoply: Low-TCB Linux Applications with SGX Enclaves](https://shwetasshinde24.github.io/Panoply/), the paper is [here](http://www.comp.nus.edu.sg/~tsunami/papers/panoply_ndss17.pdf).
+  * [Interface-Based Side Channel Attack Against Intel SGX](https://arxiv.org/abs/1811.05378)
 
 ##### ITL
 

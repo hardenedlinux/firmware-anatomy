@@ -37,6 +37,7 @@ Ring -2...
 * [A Tour beyond BIOS Using Intel VT-d for DMA Protection in UEFI BIOS - 201501](https://firmware.intel.com/sites/default/files/resources/A_Tour_Beyond_BIOS_Using_Intel_VT-d_for_DMA_Protection.pdf), the [updated version](https://firmware.intel.com/sites/default/files/Intel_WhitePaper_Using_IOMMU_for_DMA_Protection_in_UEFI.pdf) is released in Oct 2017.
 * [Detecting BadBIOS, Evil Maids, Bootkits, and Other Firmware Malware - 201710](https://ia601507.us.archive.org/2/items/seagl-2017/seagl-2017.pdf)
 * [Reverse engineering the Intel FSP… a primer guide! - 201711](https://puri.sm/posts/primer-to-reverse-engineering-intel-fsp/)
+* [LoJax: First UEFI rootkit found in the wild, courtesy of the Sednit group - 201809](https://www.welivesecurity.com/2018/09/27/lojax-first-uefi-rootkit-found-wild-courtesy-sednit-group/), [paper](https://www.welivesecurity.com/wp-content/uploads/2018/09/ESET-LoJax.pdf)
 
 
 ## BootJail
@@ -45,6 +46,15 @@ Ring -2...
 * [Safeguarding rootkits: Intel BootGuard - 2016-12](https://github.com/flothrone/bootguard), ME is original set as ["Manufacturing Mode" until "OEM Public Key Hash" and "Boot Guard Profile Configuration" being copied to CPU fuses](https://trmm.net/Bootguard) to make it either enable or disable. Alexander Ermolov shows us the ["Schrodinger's Bootguard" is neither in enabled or disabled](https://support.lenovo.com/us/en/solutions/len_9903), which can be exploited for further persistent uses.
 * [BETRAYING THE BIOS: WHERE THE GUARDIANS OF THE BIOS ARE FAILING - 201708](https://www.blackhat.com/docs/us-17/wednesday/us-17-Matrosov-Betraying-The-BIOS-Where-The-Guardians-Of-The-BIOS-Are-Failing.pdf)
 * [Bypassing Intel Boot Guard - 201710](https://embedi.com/blog/bypassing-intel-boot-guard)
+
+
+## BMC
+
+* [Subverting your server through its BMC - 201802](https://recon.cx/2018/brussels/resources/slides/RECON-BRX-2018-Subverting-your-server-through-its-BMC-the-HPE-iLO4-case.pdf), [poc](Subverting your server through its BMC: the HPE iLO4 case)
+* [The Unbearable Lightness of BMC - 201808](https://i.blackhat.com/us-18/Wed-August-8/us-18-Waisman-Soler-The-Unbearable-Lightness-of-BMC.pdf), [white paper](https://i.blackhat.com/us-18/Wed-August-8/us-18-Waisman-Soler-The-Unbearable-Lightness-of-BMC-wp.pdf)
+* [Remotely Attacking System Firmware -201808](https://i.blackhat.com/us-18/Wed-August-8/us-18-Michael-Shkatov-Remotely-Attacking-System-Firmware.pdf)
+* [Insecure Firmware Updates in Server Management Systems - 201809](https://blog.eclypsium.com/2018/09/06/insecure-firmware-updates-in-server-management-systems/)
+* [Turning your BMC into a revolving door - 201811](https://airbus-seclab.github.io/ilo/ZERONIGHTS2018-Slides-EN-Turning_your_BMC_into_a_revolving_door-perigaud-gazet-czarny.pdf)
 
 
 ## Intel docs
