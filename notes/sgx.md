@@ -26,3 +26,13 @@ SGX的设计和实现非常复杂，Intel为了实现SGX从x86平台各个层面
 技术风险：
 * issued SIGSTRUCT被泄漏，攻击者可以使用SGX调试特性构建debugging provisiong或者Quoting enclave去修改代码，也可以获得128-bit provisiong key去和Intel service通信
 
+
+### K* of SGX
+
+根据Intel专利的描述，SGX的实现依赖于CPU电路的global secret keys复杂KDF过程以及存放在eFUSE中，Chipworks报价$50-250k可以完整的提取Intel i5处理器的eFUSE，所以eFUSE内容是由一把master key( 专利中称为"global wrapping logic key")加密的。GWK用于加密一个用于重新生成CPU的EPID key的256-bit的信息和一把128-bit pre-seed key 0，eFUSE也包含了明文保存的128-bit pre-seed key 1和一个32-bit EPID group ID，GWK是硬编码到芯片电路中，所有的芯片生产厂都共享mask set，这样的流程增加了攻击成本，但也有被逆向的可能。
+
+SGX也使用了PUF，用于在provisioning阶段为设备生成对称密钥，PUF key被GWK加密并且传输到key generation server，之后key generation server用PUB key加密芯片的fuse key然后传输给芯片，PUF key增加了获得chip fuse key的成本，攻击者必须同时攻陷provisioning stage。
+
+ME也有一个eFUSE用于保存为fTPM提供的EPID key。CPU和ME之间通过DMI bus传输EPID key不安全，第一种方案是Provision enclave使用provisioning seal key加密DAK，这个方案假设ME是不可信的flash memeory，所以不能使用fTPM。另一种方案是使用key agreement protocol在DMI bus之间建立安全通信频道，ME fw可以用于存储DAK，也可以实现fTPM。
+
+* [Secure provisioning of secret keys during integrated circuit manufacturing - US20140093074A1](https://patents.google.com/patent/US20140093074)
