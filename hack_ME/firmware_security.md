@@ -38,6 +38,8 @@ Ring -2...
 * [Detecting BadBIOS, Evil Maids, Bootkits, and Other Firmware Malware - 201710](https://ia601507.us.archive.org/2/items/seagl-2017/seagl-2017.pdf)
 * [Reverse engineering the Intel FSP… a primer guide! - 201711](https://puri.sm/posts/primer-to-reverse-engineering-intel-fsp/)
 * [LoJax: First UEFI rootkit found in the wild, courtesy of the Sednit group - 201809](https://www.welivesecurity.com/2018/09/27/lojax-first-uefi-rootkit-found-wild-courtesy-sednit-group/), [paper](https://www.welivesecurity.com/wp-content/uploads/2018/09/ESET-LoJax.pdf)
+* [CODE CHECK(MATE) IN SMM - 201812](https://www.synacktiv.com/posts/exploit/code-checkmate-in-smm.html)
+* [UEFI rootkit tricks( .ru version) - 201812](https://exelab.ru/f/index.php?action=vthread&forum=2&topic=25409&page=1#8)
 
 
 ## BootJail

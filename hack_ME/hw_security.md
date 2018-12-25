@@ -25,6 +25,13 @@ If the peripheral device and firmware( e.g: Intel ME) is called "Ring -3", so le
 * [A Touch of Evil: High-Assurance Cryptographic Hardware from Untrusted Components - 201709](https://arxiv.org/abs/1709.03817), find more info on the [website](https://backdoortolerance.org/) and the [write-up](https://www.benthamsgaze.org/2018/02/06/a-witch-hunt-for-trojans-in-our-chips/).
 
 
+## Hardware trojan
+
+* [Silencing Hardware Backdoors - 2011](http://www.cs.columbia.edu/~simha/preprint_oakland11.pdf)
+* [A2: Analog Malicious Hardware - 2016](https://ieeexplore.ieee.org/document/7546493)
+* [TrojanZero: Switching Activity-Aware Design of Undetectable Hardware Trojans with Zero Power and Area Footprint - 201811](https://arxiv.org/abs/1812.02770)
+
+
 ## Free/libre open source project
 
 * [Trust-Hub](http://www.trust-hub.org/home)

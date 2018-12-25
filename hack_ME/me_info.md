@@ -98,6 +98,14 @@ We should know our enemeies from RING 3/0/-1/-2 and espeically the "devil" from 
 * [iDRAC](http://www.dell.com/support/manuals/us/en/19/idrac8-with-lc-v2.05.05.05/iDRAC8_2.05.05.05_UG-v1/Monitoring-Performance-Index-of-CPU-Memory-and-IO-Modules?guid=GUID-CC66A8FC-4644-4633-9B24-1EAF448BC4EC&lang=en-us)
 
 ### Intel SGX
+
+  * [State considered harmful - 201512](https://blog.invisiblethings.org/papers/2015/state_harmful.pdf)
+  * [Intel SGX Explained - 2016](https://eprint.iacr.org/2016/086.pdf)
+  * [Some notes on the Monotonic Counter in Intel SGX and ME - 201711](https://davejingtian.org/2017/11/10/some-notes-on-the-monotonic-counter-in-intel-sgx-and-me/)
+  * [Overview of Intel SGX - Part 1, SGX Internals - 201807](https://blog.quarkslab.com/overview-of-intel-sgx-part-1-sgx-internals.html)
+
+### Intel SGX attack, most of them via side channel
+
   * [Malware Guard Extension: Using SGX to Conceal Cache Attacks - 201702](https://arxiv.org/abs/1702.08719)
   * [DR.SGX: Hardening SGX Enclaves against Cache Attacks with Data Location Randomization](https://arxiv.org/abs/1709.09917)
   * [Another Flip in the Wall of Rowhammer Defenses](https://arxiv.org/abs/1710.00551)
@@ -105,6 +113,9 @@ We should know our enemeies from RING 3/0/-1/-2 and espeically the "devil" from 
   * [Some notes on the Monotonic Counter in Intel SGX and ME - 201711](https://davejingtian.org/2017/11/10/some-notes-on-the-monotonic-counter-in-intel-sgx-and-me/)
   * [CacheQuote: Efficiently Recovering Long-termSecrets of SGX EPID via Cache Attacks - 2018](https://tches.iacr.org/index.php/TCHES/article/view/879/831)
   * [ZeroTrace: Oblivious Memory Primitives from Intel SGX - 2018](https://eprint.iacr.org/2017/549.pdf), [source code](https://github.com/sshsshy/ZeroTrace).
+  * [Spectre attack against SGX enclave - 201801](https://github.com/lsds/spectre-attack-sgx)
+  * [Foreshadow - 201808](https://foreshadowattack.eu/)
+  * [Interface-Based Side Channel Attack Against Intel SGX](https://arxiv.org/abs/1811.05378)
 
 #### Intel SGX implementation
   * [Intel SGX for Linux*](https://github.com/intel/linux-sgx),  comprised of the Intel(R) SGX driver, the Intel(R) SGX SDK, and the Intel(R) SGX Platform Software (PSW).
@@ -112,7 +123,7 @@ We should know our enemeies from RING 3/0/-1/-2 and espeically the "devil" from 
   * [SCONE: Secure Linux Containers with Intel SGX](https://www.usenix.org/system/files/conference/osdi16/osdi16-arnautov.pdf)
   * [Graphene Library OS with Intelregistered SGX Support](https://github.com/oscarlab/graphene)
   * [Panoply: Low-TCB Linux Applications with SGX Enclaves](https://shwetasshinde24.github.io/Panoply/), the paper is [here](http://www.comp.nus.edu.sg/~tsunami/papers/panoply_ndss17.pdf).
-  * [Interface-Based Side Channel Attack Against Intel SGX](https://arxiv.org/abs/1811.05378)
+  * [ZeroTrace: Oblivious Memory Primitives from Intel SGX - 2018](https://eprint.iacr.org/2017/549.pdf), the imp for server device >= skylake. [source code](https://github.com/sshsshy/ZeroTrace).
 
 ##### ITL
 
