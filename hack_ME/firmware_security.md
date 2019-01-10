@@ -81,10 +81,11 @@ Ring -2...
 * [VIPER: Verifying the Integrity of PERipherals’ Firmware - 201110](https://pdfs.semanticscholar.org/4cde/50e94cada9bcaaec0f753e1b4dec3b6c355c.pdf)
 * [What if you can’t trust your network card? - 2011](https://pdfs.semanticscholar.org/82c0/086755479360935ec73add346854df4d1304.pdf)
 
+
 ## Microcode
 * [Notes on Intel Microcode Updates - 201212](http://inertiawar.com/microcode/)
 * [Reverse Engineering x86 Processor Microcode - 201708](http://syssec.rub.de/media/emma/veroeffentlichungen/2017/08/16/usenix17-microcode.pdf), [video](https://www.youtube.com/watch?v=I6dQfnb3y0I) and [PoC code](https://github.com/RUB-SysSec/Microcode)
-* [Decompiler internals: microcode - 201802](https://recon.cx/2018/brussels/resources/slides/RECON-BRX-2018-Decompiler-internals-microcode.pdf)
+
 
 ## TPM
 * [Chromebook: TPM firmware vulnerability: technical documentation - 201710](https://sites.google.com/a/chromium.org/dev/chromium-os/tpm_firmware_update)
@@ -108,11 +109,12 @@ Ring -2...
   * [Firmware TPM and SSL/TLS Protocol based Remote Attestation Framework for UEFI Secure Booting](https://github.com/Hecmay/UEFI-Attestation)
 
 
-## IDA Pro scripts
+## IDA Pro scripts & RCE stuff
 
 * [ida-efiutils](https://github.com/snare/ida-efiutils)
 * [EFISwissKnife](https://github.com/gdbinit/EFISwissKnife)
 * [IDAPython-scripts-for-UEFI-analisys](https://github.com/kyurchenko/IDAPython-scripts-for-UEFI-analisys)
+* [Decompiler internals: microcode - 201802](https://recon.cx/2018/brussels/resources/slides/RECON-BRX-2018-Decompiler-internals-microcode.pdf)
 
 
 ## Vendor advisory

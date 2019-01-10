@@ -25,10 +25,20 @@ If the peripheral device and firmware( e.g: Intel ME) is called "Ring -3", so le
 * [A Touch of Evil: High-Assurance Cryptographic Hardware from Untrusted Components - 201709](https://arxiv.org/abs/1709.03817), find more info on the [website](https://backdoortolerance.org/) and the [write-up](https://www.benthamsgaze.org/2018/02/06/a-witch-hunt-for-trojans-in-our-chips/).
 
 
+### Secure processor, PUF/POK/FET
+
+* [AEGIS: A single-chip secure processor](https://people.csail.mit.edu/devadas/pubs/aegis-istr-august6-2005.pdf)
+* [Trapdoor Computational Fuzzy Extractors and Stateless Cryptographically-Secure Physical Unclonable Functions - 2014](https://eprint.iacr.org/2014/938.pdf)
+* [PHYSICAL-LAYER SECURITY FOR THE INTERNET OF THINGS - 2017](https://www.emsec.ruhr-uni-bochum.de/media/attachments/files/2017/03/dissertation-zenger.pdf), another short [write-up](https://pdfs.semanticscholar.org/9c7f/d8cad243654cbcc29b62d721d5c8929ecdb8.pdf).
+
+
 ## Hardware trojan
 
 * [Silencing Hardware Backdoors - 2011](http://www.cs.columbia.edu/~simha/preprint_oakland11.pdf)
+* [DeTrust: Defeating Hardware Trust Verification with Stealthy Implicitly-Triggered Hardware Trojans - 2014](http://www.cse.cuhk.edu.hk/~qxu/zhang-ccs14.pdf)
+* [Interdiction in Practice – Hardware Trojan Against a High-Security USB Flash Drive - 2016](https://eprint.iacr.org/2015/768)
 * [A2: Analog Malicious Hardware - 2016](https://ieeexplore.ieee.org/document/7546493)
+* [Advancing the State-of-the-Art in Hardware Trojans Detection - 2016](https://eprint.iacr.org/2014/943.pdf)
 * [TrojanZero: Switching Activity-Aware Design of Undetectable Hardware Trojans with Zero Power and Area Footprint - 201811](https://arxiv.org/abs/1812.02770)
 
 
