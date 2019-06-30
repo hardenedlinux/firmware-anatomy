@@ -23,6 +23,7 @@ We should know our enemeies from RING 3/0/-1/-2 and espeically the "devil" from 
 * [Inside Intel Management Engine - 201712](https://media.ccc.de/v/34c3-8762-inside_intel_management_engine)
 * [Intel ME: Myths and reality - 201712](https://media.ccc.de/v/34c3-8782-intel_me_myths_and_reality)
 * [Intel ME Security keys Genealogy, Obfuscation and other Magic - 201807](https://github.com/ptresearch/IntelME-Crypto/blob/master/Intel%20ME%20Security%20keys%20Genealogy%2C%20Obfuscation%20and%20other%20Magic.pdf)
+* [Intel VISA: Through the Rabbit Hole](https://i.blackhat.com/asia-19/Thu-March-28/bh-asia-Goryachy-Ermolov-Intel-Visa-Through-the-Rabbit-Hole.pdf)
 
 
 ## Article/paper
@@ -116,6 +117,8 @@ We should know our enemeies from RING 3/0/-1/-2 and espeically the "devil" from 
   * [Spectre attack against SGX enclave - 201801](https://github.com/lsds/spectre-attack-sgx)
   * [Foreshadow - 201808](https://foreshadowattack.eu/)
   * [Interface-Based Side Channel Attack Against Intel SGX](https://arxiv.org/abs/1811.05378)
+  * [SGX-Step: A Practical Attack Framework for Precise Enclave Execution Control](https://github.com/jovanbulck/sgx-step)
+
 
 #### Intel SGX implementation
   * [Intel SGX for Linux*](https://github.com/intel/linux-sgx),  comprised of the Intel(R) SGX driver, the Intel(R) SGX SDK, and the Intel(R) SGX Platform Software (PSW).
@@ -124,6 +127,12 @@ We should know our enemeies from RING 3/0/-1/-2 and espeically the "devil" from 
   * [Graphene Library OS with Intelregistered SGX Support](https://github.com/oscarlab/graphene)
   * [Panoply: Low-TCB Linux Applications with SGX Enclaves](https://shwetasshinde24.github.io/Panoply/), the paper is [here](http://www.comp.nus.edu.sg/~tsunami/papers/panoply_ndss17.pdf).
   * [ZeroTrace: Oblivious Memory Primitives from Intel SGX - 2018](https://eprint.iacr.org/2017/549.pdf), the imp for server device >= skylake. [source code](https://github.com/sshsshy/ZeroTrace).
+
+#### Enclave framework
+
+  * [CCF](https://github.com/Microsoft/CCF)
+  * [Asylo](https://github.com/google/asylo)
+
 
 ##### ITL
 
@@ -136,4 +145,5 @@ We should know our enemeies from RING 3/0/-1/-2 and espeically the "devil" from 
 ## Dark side of AMD
 
 * [AMD x86 SMU firmware analysis - 201412](https://media.ccc.de/v/31c3_-_6103_-_en_-_saal_2_-_201412272145_-_amd_x86_smu_firmware_analysis_-_rudolf_marek), [slide](https://events.ccc.de/congress/2014/Fahrplan/system/attachments/2503/original/ccc-final.pdf)
+* [AMDFlaws - 201802](https://storage.googleapis.com/wzukusers/user-28822230/documents/5c5b3fd28b669cTWPzwo/AMDFlaws%20Lecture%20Slides.pdf), vuln/exploit on AMD PSP.
 * [smutool](https://github.com/zamaudio/smutool)

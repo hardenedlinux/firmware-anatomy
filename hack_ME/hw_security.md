@@ -35,6 +35,7 @@ If the peripheral device and firmware( e.g: Intel ME) is called "Ring -3", so le
 ## Hardware trojan
 
 * [Silencing Hardware Backdoors - 2011](http://www.cs.columbia.edu/~simha/preprint_oakland11.pdf)
+* [Stealthy Dopant-Level Hardware Trojans - 2013](https://sharps.org/wp-content/uploads/BECKER-CHES.pdf)
 * [DeTrust: Defeating Hardware Trust Verification with Stealthy Implicitly-Triggered Hardware Trojans - 2014](http://www.cse.cuhk.edu.hk/~qxu/zhang-ccs14.pdf)
 * [Interdiction in Practice – Hardware Trojan Against a High-Security USB Flash Drive - 2016](https://eprint.iacr.org/2015/768)
 * [A2: Analog Malicious Hardware - 2016](https://ieeexplore.ieee.org/document/7546493)

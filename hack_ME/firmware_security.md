@@ -18,8 +18,11 @@ Ring -2...
 * [UEFI  Firmware  Rootkits: Myths  and  Reality - 201703](https://www.blackhat.com/docs/asia-17/materials/asia-17-Matrosov-The-UEFI-Firmware-Rootkits-Myths-And-Reality.pdf)
 * [Attacking hypervisors through hardware emulation - 201703](https://www.troopers.de/downloads/troopers17/TR17_Attacking_hypervisor_through_hardwear_emulation.pdf)
 * [Training: Security of BIOS/UEFI System Firmware from Attacker and Defender Perspectives - 201705](https://github.com/advanced-threat-research/firmware-security-training)
+* [BETRAYING THE BIOS: WHERE THE GUARDIANS OF THE BIOS ARE FAILING - 201708](https://www.blackhat.com/docs/us-17/wednesday/us-17-Matrosov-Betraying-The-BIOS-Where-The-Guardians-Of-The-BIOS-Are-Failing.pdf), [write-up](https://threatvector.cylance.com/en_us/home/black-hat-vegas-where-the-guardians-of-the-bios-are-failing.html)
 * [Digging Into The Core of Boot](https://recon.cx/2017/montreal/resources/slides/RECON-MTL-2017-DiggingIntoTheCoreOfBoot.pdf)
 * [Replace Your Exploit-Ridden Firmware with Linux - 201710](https://schd.ws/hosted_files/osseu17/84/Replace%20UEFI%20with%20Linux.pdf), [video](https://www.youtube.com/watch?v=iffTJ1vPCSo)
+* [Betraying the BIOS: Going Deeper into BIOS Guard Implementations - 201803](https://github.com/REhints/Publications/tree/master/Conferences/Betraying%20the%20BIOS), [video](https://www.youtube.com/watch?v=kSQVGFbTfqE)
+* [Attacking Hardware Root of Trust from UEFI Firmware - 201903](https://www.youtube.com/watch?v=Ap-2CnoyBek)
 
 
 ## Article/paper
@@ -48,6 +51,7 @@ Ring -2...
 * [Safeguarding rootkits: Intel BootGuard - 2016-12](https://github.com/flothrone/bootguard), ME is original set as ["Manufacturing Mode" until "OEM Public Key Hash" and "Boot Guard Profile Configuration" being copied to CPU fuses](https://trmm.net/Bootguard) to make it either enable or disable. Alexander Ermolov shows us the ["Schrodinger's Bootguard" is neither in enabled or disabled](https://support.lenovo.com/us/en/solutions/len_9903), which can be exploited for further persistent uses.
 * [BETRAYING THE BIOS: WHERE THE GUARDIANS OF THE BIOS ARE FAILING - 201708](https://www.blackhat.com/docs/us-17/wednesday/us-17-Matrosov-Betraying-The-BIOS-Where-The-Guardians-Of-The-BIOS-Are-Failing.pdf)
 * [Bypassing Intel Boot Guard - 201710](https://embedi.com/blog/bypassing-intel-boot-guard)
+* [ATTACKING HARDWARE ROOT OF TRUST FROM UEFI FIRMWARE - 201903](https://github.com/REhints/Publications/blob/master/Conferences/Bypassing%20Hardware%20Root%20of%20Trust/offcon2019_final.pdf)
 
 
 ## BMC
@@ -57,11 +61,19 @@ Ring -2...
 * [Remotely Attacking System Firmware -201808](https://i.blackhat.com/us-18/Wed-August-8/us-18-Michael-Shkatov-Remotely-Attacking-System-Firmware.pdf)
 * [Insecure Firmware Updates in Server Management Systems - 201809](https://blog.eclypsium.com/2018/09/06/insecure-firmware-updates-in-server-management-systems/)
 * [Turning your BMC into a revolving door - 201811](https://airbus-seclab.github.io/ilo/ZERONIGHTS2018-Slides-EN-Turning_your_BMC_into_a_revolving_door-perigaud-gazet-czarny.pdf)
-
+* [CVE-2019-6260: Gaining control of BMC from the host processor - 201901](https://www.flamingspork.com/blog/2019/01/23/cve-2019-6260-gaining-control-of-bmc-from-the-host-processor/)
+* [Riding the lightning: iLO4&5 BMC security wrap-up - 201903](https://airbus-seclab.github.io/ilo/INSOMNIHACK2019-Slides-Riding_the_lightning_iLO4_5_BMC_security_wrapup-perigaud-gazet-czarny.pdf)
+* [Defending Against Out-of-Band Management BMC Attacks - 201904](https://firmwaresecurity.files.wordpress.com/2019/05/lfnw2019-bmc.pdf), [video](https://www.youtube.com/watch?v=C6Q0_N54GcA)
 
 ## Intel docs
 
 * [PCIe* Device Security Enhancements Specification](https://www.intel.com/content/www/us/en/io/pci-express/pcie-device-security-enhancements-spec.html)
+
+
+## OEM update
+
+* [Out-of-Box ExploitationA Security Analysis of OEM Updaters - 201605](https://duo.com/assets/pdf/out-of-box-exploitation_oem-updaters.pdf)
+* [ASUS LiveUpdate of UEFI sent UNauthenticated - 201606](https://firmwaresecurity.com/2016/06/05/asus-liveupdate-of-uefi-sent-authenticated/)
 
 
 ## GPU-based attack
@@ -107,6 +119,12 @@ Ring -2...
 ### Attestation
 
   * [Firmware TPM and SSL/TLS Protocol based Remote Attestation Framework for UEFI Secure Booting](https://github.com/Hecmay/UEFI-Attestation)
+
+### BMC
+
+* [OpenBMC](https://github.com/openbmc/openbmc)
+* [u-bmc](https://u-bmc.readthedocs.io/en/latest/)
+* [bmclib](https://github.com/bmc-toolbox/bmclib)
 
 
 ## IDA Pro scripts & RCE stuff
