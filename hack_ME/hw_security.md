@@ -23,6 +23,11 @@ If the peripheral device and firmware( e.g: Intel ME) is called "Ring -3", so le
 
 * [Semi-invasive attacks - A new approach to hardware security analysis - 200504](https://www.cl.cam.ac.uk/techreports/UCAM-CL-TR-630.pdf)
 * [A Touch of Evil: High-Assurance Cryptographic Hardware from Untrusted Components - 201709](https://arxiv.org/abs/1709.03817), find more info on the [website](https://backdoortolerance.org/) and the [write-up](https://www.benthamsgaze.org/2018/02/06/a-witch-hunt-for-trojans-in-our-chips/).
+* [DARPA Rolls Out Electronics Resurgence Initiative - 2017](https://www.darpa.mil/news-events/2017-09-13)
+* [System Security Integration Through Hardware and Firmware](SSITH)(https://www.darpa.mil/program/system-security-integration-through-hardware-and-firmware)
+* [ISA Semantics for ARMv8-A, RISC-V, and CHERI-MIPS](https://alastairreid.github.io/papers/POPL_19/)
+* [Surprisingly Turing-Complete](https://www.gwern.net/Turing-complete)
+* [When a Patch is Not Enough - HardFails: Software-Exploitable Hardware Bugs](https://arxiv.org/pdf/1812.00197.pdf)
 
 
 ### Secure processor, PUF/POK/FET
@@ -46,3 +51,6 @@ If the peripheral device and firmware( e.g: Intel ME) is called "Ring -3", so le
 ## Free/libre open source project
 
 * [Trust-Hub](http://www.trust-hub.org/home)
+* [Pentesting hardware](https://github.com/unprovable/PentestHardware)
+* [The Sail ISA specification language](https://github.com/rems-project/sail)
+
