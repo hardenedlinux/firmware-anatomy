@@ -17,13 +17,14 @@ We should know our enemeies from RING 3/0/-1/-2 and espeically the "devil" from 
 * [Intel ME: Two Years Later - 2014-10](https://github.com/skochinsky/papers/raw/master/2014-10%20%5BBreakpoint%5D%20Intel%20ME%20-%20Two%20Years%20Later.pdf)
 * [Reversing firmware using radare2 - 2014-10](http://xvilka.me/h2hc2014-reversing-firmware-radare-slides.pdf)
 * [Intel ME: The Way of the Static Analysis - 201703](https://www.troopers.de/downloads/troopers17/TR17_ME11_Static.pdf), [presentation video](https://www.youtube.com/watch?v=2_aokrfcoUk)
+* [Secrets of the Motherboard - 201709](https://labs.portcullis.co.uk/download/44CSOTM.pptx)
 * [Intel AMT: Using & Abusing the Ghost in the Machine - 201710](https://drive.google.com/file/d/0BxMgdZPXsSLBYTBpWXZoRFJXZk0/view), [video](https://www.youtube.com/watch?v=aiMNbjzYMXo)
 * [How to Hack a Turned - Off Computer, or Running Unsigned Code in Intel Management Engine - 201712](https://www.blackhat.com/docs/eu-17/materials/eu-17-Goryachy-How-To-Hack-A-Turned-Off-Computer-Or-Running-Unsigned-Code-In-Intel-Management-Engine.pdf), [white paper](https://www.blackhat.com/docs/eu-17/materials/eu-17-Goryachy-How-To-Hack-A-Turned-Off-Computer-Or-Running-Unsigned-Code-In-Intel-Management-Engine-wp.pdf).
 * [Intel ME: Flash File System Explained: https://www.blackhat.com/docs/eu-17/materials/eu-17-Sklyarov-Intel-ME-Flash-File-System-Explained.pdf - 201712], [whiter paper](https://www.blackhat.com/docs/eu-17/materials/eu-17-Sklyarov-Intel-ME-Flash-File-System-Explained-wp.pdf).
 * [Inside Intel Management Engine - 201712](https://media.ccc.de/v/34c3-8762-inside_intel_management_engine)
 * [Intel ME: Myths and reality - 201712](https://media.ccc.de/v/34c3-8782-intel_me_myths_and_reality)
 * [Intel ME Security keys Genealogy, Obfuscation and other Magic - 201807](https://github.com/ptresearch/IntelME-Crypto/blob/master/Intel%20ME%20Security%20keys%20Genealogy%2C%20Obfuscation%20and%20other%20Magic.pdf)
-* [Intel VISA: Through the Rabbit Hole](https://i.blackhat.com/asia-19/Thu-March-28/bh-asia-Goryachy-Ermolov-Intel-Visa-Through-the-Rabbit-Hole.pdf)
+* [Intel VISA: Through the Rabbit Hole - 201903](https://i.blackhat.com/asia-19/Thu-March-28/bh-asia-Goryachy-Ermolov-Intel-Visa-Through-the-Rabbit-Hole.pdf)
 
 
 ## Article/paper
@@ -49,6 +50,8 @@ We should know our enemeies from RING 3/0/-1/-2 and espeically the "devil" from 
 * [Восстановление таблиц Хаффмана в Intel ME 11.x - 201712)(https://habrahabr.ru/company/pt/blog/344056/), [English version: Recovering Huffman tables in Intel ME 11.x](http://blog.ptsecurity.com/2017/12/huffman-tables-intel-me.html)
 * [The Intel Management Engine - 201712](https://bitkeks.eu/blog/2017/12/the-intel-management-engine.html)
 * [Как взломать выключенный компьютер или выполнить код в Intel ME( How to run code in Intel ME) - 201801](http://blog.ptsecurity.ru/2018/01/intel-me.html)
+* [Exploiting Intel’s Management Engine – Part 1: Understanding PT’s TXE PoC (INTEL-SA-00086) - 201911](https://kakaroto.homelinux.net/2019/11/exploiting-intels-management-engine-part-1-understanding-pts-txe-poc/)
+* [Exploiting Intel’s Management Engine – Part 2: Enabling Red JTAG Unlock on Intel ME 11.x (INTEL-SA-00086) - 201911](https://kakaroto.homelinux.net/2019/11/exploiting-intels-management-engine-part-2-enabling-red-jtag-unlock-on-intel-me-11-x-intel-sa-00086/)
 
 
 ## Free/libre open source tools
@@ -80,6 +83,7 @@ We should know our enemeies from RING 3/0/-1/-2 and espeically the "devil" from 
 * [INTEL-SA-00075, CVE-2017-5689: Intel Active Management Technology, Intel Small Business Technology, and Intel Standard Manageability Escalation of Privilege - 20170501](https://security-center.intel.com/advisory.aspx?intelid=INTEL-SA-00075&languageid=en-fr), [vuln detection script](https://github.com/CerberusSecurity/CVE-2017-5689)
 * [INTEL-SA-00081, CVE-2017-5697: Intel AMT Clickjacking Vulnerability - Jun 5 2017](https://security-center.intel.com/advisory.aspx?intelid=INTEL-SA-00081&languageid=en-fr)
 * [CVE-2017-5705/INTEL-SA-00086: memory corruption affected ME 11.x, SPS 4.0, and TXE 3.0 - Nov 2017](https://security-center.intel.com/advisory.aspx?intelid=INTEL-SA-00086&languageid=en-fr), Intel released a [detection tool](https://downloadcenter.intel.com/download/27150) for GNU/Linux can determine the status of SPS at runtime.
+* [Multiple vulnerabilities begin disclosured INTEL-SA-00241 included] - 201911](https://blogs.intel.com/technology/2019/11/ipas-november-2019-intel-platform-update-ipu/#gs.gi4m2m)
 
 
 ## AMD PSP advisory

@@ -56,6 +56,7 @@ Ring -2...
 
 ## BMC
 
+* [Common BMC VulnerabilitiesAnd How to Avoid Repeating Them - 201909](https://osfc.io/uploads/talk/paper/39/Common_BMC_vulnerabilities_and_how_to_avoid_repeating_them.pdf)
 * [Subverting your server through its BMC - 201802](https://recon.cx/2018/brussels/resources/slides/RECON-BRX-2018-Subverting-your-server-through-its-BMC-the-HPE-iLO4-case.pdf), [poc](Subverting your server through its BMC: the HPE iLO4 case)
 * [The Unbearable Lightness of BMC - 201808](https://i.blackhat.com/us-18/Wed-August-8/us-18-Waisman-Soler-The-Unbearable-Lightness-of-BMC.pdf), [white paper](https://i.blackhat.com/us-18/Wed-August-8/us-18-Waisman-Soler-The-Unbearable-Lightness-of-BMC-wp.pdf)
 * [Remotely Attacking System Firmware -201808](https://i.blackhat.com/us-18/Wed-August-8/us-18-Michael-Shkatov-Remotely-Attacking-System-Firmware.pdf)
