@@ -2,7 +2,14 @@
 
 "If you know the enemy and know yourself, you need not fear the result of a hundred battles. If you know yourself but not the enemy, for every victory gained you will also suffer a defeat. If you know neither the enemy nor yourself, you will succumb in every battle." ---  Sun Tzu 
 
-If the peripheral device and firmware( e.g: Intel ME) is called "Ring -3", so let's call "Ring -4" refered as hardware level( naming is one of the hardest issue in CS, isn't it;-)). Those knowledge from offensive side will help us to know better where we are and how we react.
+If the peripheral device and firmware( e.g: Intel ME) is called "Ring -3", so let's call "Ring -4" refered as hardware level( naming is one of the hardest issue in CS, isn't it;-)). Those knowledge from offensive side will help us to know better where we are and how we react. Transparency is more crucial in hardware security than software's due to the emerging cost/complexity of open audit is inevitable. A couple of issues must be taken into account before we have the chance to bring back the hardware freedom to the individuals:
+
+* Libre/open FPGA toolchain
+* Libre/open EDA toolchain
+* Reproducible semiconductor fabrication process
+* Open audit process/method for multiple levels, e.g: RTL, schematic, PCB layout, etc
+* FLOSS based hardware supply chain risk assessment and management
+
 
 ## Fault injection
 
@@ -54,3 +61,57 @@ If the peripheral device and firmware( e.g: Intel ME) is called "Ring -3", so le
 * [Pentesting hardware](https://github.com/unprovable/PentestHardware)
 * [The Sail ISA specification language](https://github.com/rems-project/sail)
 
+
+## FPGA
+
+* [Experience Using a Low-Cost FPGA Design to Crack DES Keys](https://www.cl.cam.ac.uk/~rnc1/descrack/DEScracker.html)
+* [Active Fences against Voltage-based Side Channels inMulti-Tenant FPGAs](https://eprint.iacr.org/2019/1152.pdf)
+* [DDR4 SDRAM - Initialization, Training and Calibration](https://www.systemverilog.io/ddr4-initialization-and-calibration)
+* [FPGAs for Software Engineers 0: The Basics](https://rhye.org/post/fpgas-for-software-engineers-0-basics/)
+
+
+## Open FPGA materials
+
+* [Yosys+nextpnr: an Open Source Framework from Verilog to Bitstream for Commercial FPGAs - 2019](https://arxiv.org/abs/1903.10407)
+* [open-fpga-verilog-tutorial](https://github.com/Obijuan/open-fpga-verilog-tutorial/wiki/Chapter-0%3A-you-are-leaving-the-private-sector)
+* [FPGADesignElements](https://github.com/laforest/FPGADesignElements)
+
+
+## Libre/open toolchains
+
+* [yosys](https://github.com/YosysHQ/yosys), systhesis tool can transform Verilog to RTL.
+* [nextpnr](https://github.com/YosysHQ/nextpnr), place & route tool transform RTL to bitstream.
+* [nextpnr-xilinx](https://github.com/daveshah1/nextpnr-xilinx/), experimental project integrate nextpnr with open bitstream for high end Xilinx FPGA( xc7, [Alveo U250](https://www.xilinx.com/products/boards-and-kits/alveo/u250.html#specifications))
+* [symbiflow](https://symbiflow.github.io/)
+* [OpenROAD](https://theopenroadproject.org/), [multiple projects](https://github.com/The-OpenROAD-Project) aims to develop open source generation flow( RTL-to-GDS).
+* [Project Oak Hardware](https://github.com/project-oak/oak-hardware), enclave demo can work with Xilinx ZCU104.
+
+
+### SystemVerilogy & VHDL
+
+* [UHDM( Universal Hardware Data Model)](https://github.com/alainmarcel/UHDM), under UHDM's context, the design and implementation process should be like:
+
+```
++---------------------+      +-------------------------+      +------------------------+      +-------------------------------+
+|SystemVerilog Design | ---> | Parser: Verible/Surelog | ---> | Tools: Yosys/Verilator | ---> | Simulation/Gate level netlist |
++---------------------+      +-------------------------+      +------------------------+      +-------------------------------+
+```
+* [Surelog](https://github.com/alainmarcel/Surelog), System Verilog 2017 Pre-processor, Parser, UHDM Compiler. Provides IEEE Design/TB VPI and Python AST API.
+* [SystemVerilog Report](https://symbiflow.github.io/sv-tests/), [test suite](https://github.com/SymbiFlow/sv-tests) designed to check compliance with the SystemVerilog standard.
+
+
+### [OpenTitan](https://opentitan.org/)
+
+* [Ibex RISC-V Core](https://github.com/lowRISC/ibex)
+* [Project X-Ray](https://symbiflow.readthedocs.io/projects/prjxray/en/latest/), [Arty A7-100T](https://store.digilentinc.com/arty-a7-artix-7-fpga-development-board-for-makers-and-hobbyists/) and [Nexys Video Artix-7](https://store.digilentinc.com/nexys-video-artix-7-fpga-trainer-board-for-multimedia-applications/)
+
+
+## Hardware Reverse Engineering
+
+* [HAL — The Missing Piece of the Puzzle for Hardware Reverse Engineering, Trojan Detection and Insertion - 2018](https://eprint.iacr.org/2017/783), [HAL](https://github.com/emsec/HAL) is a FLOSS project can be used to aid the hardware audit.
+
+
+## Open ASIC design and manufacture
+
+* [Libre Silicon Alliance](https://github.com/libresilicon)
+* [ASICone](https://www.youtube.com/watch?v=17Pqy6nH4HA)
