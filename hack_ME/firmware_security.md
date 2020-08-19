@@ -23,6 +23,7 @@ Ring -2...
 * [Replace Your Exploit-Ridden Firmware with Linux - 201710](https://schd.ws/hosted_files/osseu17/84/Replace%20UEFI%20with%20Linux.pdf), [video](https://www.youtube.com/watch?v=iffTJ1vPCSo)
 * [Betraying the BIOS: Going Deeper into BIOS Guard Implementations - 201803](https://github.com/REhints/Publications/tree/master/Conferences/Betraying%20the%20BIOS), [video](https://www.youtube.com/watch?v=kSQVGFbTfqE)
 * [Attacking Hardware Root of Trust from UEFI Firmware - 201903](https://www.youtube.com/watch?v=Ap-2CnoyBek)
+* [Now You See It: TOCTOU Attacks Against Secure Boot and BootGuard - 201905](https://conference.hitb.org/hitbsecconf2019ams/materials/D1T1%20-%20Toctou%20Attacks%20Against%20Secure%20Boot%20-%20Trammell%20Hudson%20&%20Peter%20Bosch.pdf), [bug track of CVE-2019-11098](https://bugzilla.tianocore.org/show_bug.cgi?id=1614) for TianoCore.
 
 
 ## Article/paper
@@ -50,7 +51,7 @@ Ring -2...
 * [Intel Boot Guard research - 2016](https://github.com/flothrone/bootguard)
 * [Safeguarding rootkits: Intel BootGuard - 2016-12](https://github.com/flothrone/bootguard), ME is original set as ["Manufacturing Mode" until "OEM Public Key Hash" and "Boot Guard Profile Configuration" being copied to CPU fuses](https://trmm.net/Bootguard) to make it either enable or disable. Alexander Ermolov shows us the ["Schrodinger's Bootguard" is neither in enabled or disabled](https://support.lenovo.com/us/en/solutions/len_9903), which can be exploited for further persistent uses.
 * [BETRAYING THE BIOS: WHERE THE GUARDIANS OF THE BIOS ARE FAILING - 201708](https://www.blackhat.com/docs/us-17/wednesday/us-17-Matrosov-Betraying-The-BIOS-Where-The-Guardians-Of-The-BIOS-Are-Failing.pdf)
-* [Bypassing Intel Boot Guard - 201710](https://embedi.com/blog/bypassing-intel-boot-guard)
+* [Bypassing Intel Boot Guard - 201710](https://web.archive.org/web/20171006051839/https://embedi.com/blog/bypassing-intel-boot-guard)
 * [ATTACKING HARDWARE ROOT OF TRUST FROM UEFI FIRMWARE - 201903](https://github.com/REhints/Publications/blob/master/Conferences/Bypassing%20Hardware%20Root%20of%20Trust/offcon2019_final.pdf)
 
 
@@ -96,6 +97,8 @@ Ring -2...
 
 
 ## Microcode
+* [GLM uCode dumps](https://github.com/chip-red-pill/glm-ucode)
+* [Intel LDAT notes - 202005](https://pbx.sh/ldat/)
 * [Notes on Intel Microcode Updates - 201212](http://inertiawar.com/microcode/)
 * [Reverse Engineering x86 Processor Microcode - 201708](http://syssec.rub.de/media/emma/veroeffentlichungen/2017/08/16/usenix17-microcode.pdf), [video](https://www.youtube.com/watch?v=I6dQfnb3y0I) and [PoC code](https://github.com/RUB-SysSec/Microcode)
 

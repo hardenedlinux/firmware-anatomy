@@ -122,6 +122,8 @@ We should know our enemeies from RING 3/0/-1/-2 and espeically the "devil" from 
   * [Foreshadow - 201808](https://foreshadowattack.eu/)
   * [Interface-Based Side Channel Attack Against Intel SGX](https://arxiv.org/abs/1811.05378)
   * [SGX-Step: A Practical Attack Framework for Precise Enclave Execution Control](https://github.com/jovanbulck/sgx-step)
+  * [Plundervolt - 201912](https://plundervolt.com/)
+  * 202006: [SGAxe](https://sgaxe.com/) and [CROSSTalk](https://www.vusec.net/projects/crosstalk/) demonstrates enclave-2-enclave attack surface in practical.
 
 
 #### Intel SGX implementation
