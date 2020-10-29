@@ -52,6 +52,7 @@ We should know our enemeies from RING 3/0/-1/-2 and espeically the "devil" from 
 * [Как взломать выключенный компьютер или выполнить код в Intel ME( How to run code in Intel ME) - 201801](http://blog.ptsecurity.ru/2018/01/intel-me.html)
 * [Exploiting Intel’s Management Engine – Part 1: Understanding PT’s TXE PoC (INTEL-SA-00086) - 201911](https://kakaroto.homelinux.net/2019/11/exploiting-intels-management-engine-part-1-understanding-pts-txe-poc/)
 * [Exploiting Intel’s Management Engine – Part 2: Enabling Red JTAG Unlock on Intel ME 11.x (INTEL-SA-00086) - 201911](https://kakaroto.homelinux.net/2019/11/exploiting-intels-management-engine-part-2-enabling-red-jtag-unlock-on-intel-me-11-x-intel-sa-00086/)
+* [Exploiting Intel’s Management Engine – Part 3: USB hijacking (INTEL-SA-00086) - 202008](https://kakaroto.ca/2020/08/exploiting-intels-management-engine-part-3-usb-hijacking-intel-sa-00086/)
 
 
 ## Free/libre open source tools

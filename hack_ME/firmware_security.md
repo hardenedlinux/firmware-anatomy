@@ -44,6 +44,7 @@ Ring -2...
 * [LoJax: First UEFI rootkit found in the wild, courtesy of the Sednit group - 201809](https://www.welivesecurity.com/2018/09/27/lojax-first-uefi-rootkit-found-wild-courtesy-sednit-group/), [paper](https://www.welivesecurity.com/wp-content/uploads/2018/09/ESET-LoJax.pdf)
 * [CODE CHECK(MATE) IN SMM - 201812](https://www.synacktiv.com/posts/exploit/code-checkmate-in-smm.html)
 * [UEFI rootkit tricks( .ru version) - 201812](https://exelab.ru/f/index.php?action=vthread&forum=2&topic=25409&page=1#8)
+* [MosaicRegressor: Lurking in the Shadows of UEFI - 202010](https://securelist.com/mosaicregressor/98849/), [technical report](https://media.kasperskycontenthub.com/wp-content/uploads/sites/43/2020/10/05094208/MosaicRegressor_Technical-details.pdf), could be exploited via [misconfiguration](https://www.kb.cert.org/vuls/id/766164) as LowJaX does.
 
 
 ## BootJail
@@ -133,6 +134,7 @@ Ring -2...
 
 ## IDA Pro scripts & RCE stuff
 
+* [efiXplorer](https://github.com/binarly-io/efiXplorer), IDA plugin for UEFI firmware analysis and reverse engineering automation 
 * [ida-efiutils](https://github.com/snare/ida-efiutils)
 * [EFISwissKnife](https://github.com/gdbinit/EFISwissKnife)
 * [IDAPython-scripts-for-UEFI-analisys](https://github.com/kyurchenko/IDAPython-scripts-for-UEFI-analisys)
