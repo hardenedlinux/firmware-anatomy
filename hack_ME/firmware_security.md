@@ -98,6 +98,7 @@ Ring -2...
 
 
 ## Microcode
+* [Under the hood of a CPU: Reverse Engineering the P6 microcode - 202011](https://www.youtube.com/watch?v=4oFOpDflJMA)
 * [GLM uCode dumps](https://github.com/chip-red-pill/glm-ucode)
 * [Intel LDAT notes - 202005](https://pbx.sh/ldat/)
 * [Notes on Intel Microcode Updates - 201212](http://inertiawar.com/microcode/)

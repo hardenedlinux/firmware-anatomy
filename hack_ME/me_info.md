@@ -25,6 +25,8 @@ We should know our enemeies from RING 3/0/-1/-2 and espeically the "devil" from 
 * [Intel ME: Myths and reality - 201712](https://media.ccc.de/v/34c3-8782-intel_me_myths_and_reality)
 * [Intel ME Security keys Genealogy, Obfuscation and other Magic - 201807](https://github.com/ptresearch/IntelME-Crypto/blob/master/Intel%20ME%20Security%20keys%20Genealogy%2C%20Obfuscation%20and%20other%20Magic.pdf)
 * [Intel VISA: Through the Rabbit Hole - 201903](https://i.blackhat.com/asia-19/Thu-March-28/bh-asia-Goryachy-Ermolov-Intel-Visa-Through-the-Rabbit-Hole.pdf)
+* [Behind the Scenes of Intel Security and Manageability Engine - 201908](https://i.blackhat.com/USA-19/Wednesday/us-19-Hasarfaty-Behind-The-Scenes-Of-Intel-Security-And-Manageability-Engine.pdf), [video](https://www.youtube.com/watch?v=TsXzDFjXj2s)
+* [Intel Management Engine deep dive: Understanding the ME at the OS and hardware level - 201912](https://media.ccc.de/v/36c3-10694-intel_management_engine_deep_dive)
 
 
 ## Article/paper
