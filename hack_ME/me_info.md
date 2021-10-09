@@ -24,10 +24,11 @@ We should know our enemeies from RING 3/0/-1/-2 and espeically the "devil" from 
 * [Inside Intel Management Engine - 201712](https://media.ccc.de/v/34c3-8762-inside_intel_management_engine)
 * [Intel ME: Myths and reality - 201712](https://media.ccc.de/v/34c3-8782-intel_me_myths_and_reality)
 * [Intel ME Security keys Genealogy, Obfuscation and other Magic - 201807](https://github.com/ptresearch/IntelME-Crypto/blob/master/Intel%20ME%20Security%20keys%20Genealogy%2C%20Obfuscation%20and%20other%20Magic.pdf)
-* [Intel VISA: Through the Rabbit Hole - 201903](https://i.blackhat.com/asia-19/Thu-March-28/bh-asia-Goryachy-Ermolov-Intel-Visa-Through-the-Rabbit-Hole.pdf)
+* [Intel VISA: Through the Rabbit Hole - 201903](https://i.blackhat.com/asia-19/Thu-March-28/bh-asia-Goryachy-Ermolov-Intel-Visa-Through-the-Rabbit-Hole.pdf), [video](https://www.youtube.com/watch?v=mYAelYWvSKg)
 * [Behind the Scenes of Intel Security and Manageability Engine - 201908](https://i.blackhat.com/USA-19/Wednesday/us-19-Hasarfaty-Behind-The-Scenes-Of-Intel-Security-And-Manageability-Engine.pdf), [video](https://www.youtube.com/watch?v=TsXzDFjXj2s)
 * [Intel Management Engine deep dive: Understanding the ME at the OS and hardware level - 201912](https://media.ccc.de/v/36c3-10694-intel_management_engine_deep_dive)
-
+* [CHIP RED PILL: HOW WE ACHIEVED TO EXECUTE ARBITRARY [MICRO]CODE INSIDE INTEL ATOM CPUS - 202109](https://zeronights.ru/wp-content/uploads/2021/09/05_goryachij.pdf)
+* [LPE in Ring -3 / Intel ME - 202109](https://zeronights.ru/wp-content/uploads/2021/09/06_turchenkov.pdf)
 
 ## Article/paper
 
@@ -46,9 +47,9 @@ We should know our enemeies from RING 3/0/-1/-2 and espeically the "devil" from 
 * [INTEL AMT. STEALTH BREAKTHROUGH](https://www.blackhat.com/docs/us-17/thursday/us-17-Evdokimov-Intel-AMT-Stealth-Breakthrough.pdf), [whiter paper](https://www.blackhat.com/docs/us-17/thursday/us-17-Evdokimov-Intel-AMT-Stealth-Breakthrough-wp.pdf).
 * [Has Intel ME Analysis Tool Development Petered Out? - 201708](https://blog.fpmurphy.com/2017/08/has-intel-me-analysis-tool-development-petered-out.html), the 1st time disclosure to the public about >= MEv11 are running MINIX-based OS.
 * [Disabling Intel ME 11 via undocumented mode - 201708](http://blog.ptsecurity.com/2017/08/disabling-intel-me.html), HAP/AltMeDisable bit is fully disclosured to the public that NSA treats Intel ME as a risk which unlike to avoid without high cost, so they have Intel added a killswitch for their defensive program.
-* [Выключаем Intel ME 11, используя недокументированный режим](https://habrahabr.ru/company/pt/blog/336242/)
+* [Выключаем Intel ME 11, используя недокументированный режим - 201708](https://habrahabr.ru/company/pt/blog/336242/)
 * [Deep dive into Intel Management Engine disablement - 201710](https://puri.sm/posts/deep-dive-into-intel-me-disablement/)
-* [JTAG в каждый дом: полный доступ через USB - 201711](https://habrahabr.ru/company/pt/blog/341946/), Intel ME memory can be full access by JTAG debugging via USB DCI, which could also possibily doing SMRAM dump for the forensics.
+* [JTAG в каждый дом: полный доступ через USB - 201711](https://habrahabr.ru/company/pt/blog/341946/), Intel ME memory can be full access by JTAG debugging via USB DCI, which could also possibily doing SMRAM dump for the forensics. [Eng](https://www.ptsecurity.com/ww-en/analytics/where-theres-a-jtag-theres-a-way/)
 * [Восстановление таблиц Хаффмана в Intel ME 11.x - 201712)(https://habrahabr.ru/company/pt/blog/344056/), [English version: Recovering Huffman tables in Intel ME 11.x](http://blog.ptsecurity.com/2017/12/huffman-tables-intel-me.html)
 * [The Intel Management Engine - 201712](https://bitkeks.eu/blog/2017/12/the-intel-management-engine.html)
 * [Как взломать выключенный компьютер или выполнить код в Intel ME( How to run code in Intel ME) - 201801](http://blog.ptsecurity.ru/2018/01/intel-me.html)
@@ -91,6 +92,7 @@ We should know our enemeies from RING 3/0/-1/-2 and espeically the "devil" from 
 * [Multiple vulnerabilities begin disclosured INTEL-SA-00241 included - 201911](https://blogs.intel.com/technology/2019/11/ipas-november-2019-intel-platform-update-ipu/#gs.gi4m2m)
 * [Intel® Management Engine Critical Firmware Update (Intel-SA-00086) -202001](https://www.intel.com/content/www/us/en/support/articles/000025619/software.html)
 * [The Intel® Converged Security Management Engine(CSME)Delayed Authentication Mode (DAM)vulnerability -CVE-2018-3659 and CVE-2018-3643 - 202001](https://www.intel.com/content/dam/www/public/us/en/security-advisory/documents/the-intel-csme-dam-vulnerability-cve-2018-3659-and-cve-2018-3643-whitepaper.pdf)
+* [[INTEL-SA-00213](https://www.intel.com/content/www/us/en/security-center/advisory/intel-sa-00213.html), [INTEL-SA-00295](https://www.intel.com/content/www/us/en/security-center/advisory/intel-sa-00295.html): [The Intel® Converged Security and Management Engine IOMMU Hardware Issue–CVE-2019-0090and CVE-2020-0566](https://www.intel.com/content/dam/www/public/us/en/security-advisory/documents/cve-2019-0090-whitepaper.pdf)
 
 
 ## AMD PSP advisory

@@ -54,10 +54,12 @@ Ring -2...
 * [BETRAYING THE BIOS: WHERE THE GUARDIANS OF THE BIOS ARE FAILING - 201708](https://www.blackhat.com/docs/us-17/wednesday/us-17-Matrosov-Betraying-The-BIOS-Where-The-Guardians-Of-The-BIOS-Are-Failing.pdf)
 * [Bypassing Intel Boot Guard - 201710](https://web.archive.org/web/20171006051839/https://embedi.com/blog/bypassing-intel-boot-guard)
 * [ATTACKING HARDWARE ROOT OF TRUST FROM UEFI FIRMWARE - 201903](https://github.com/REhints/Publications/blob/master/Conferences/Bypassing%20Hardware%20Root%20of%20Trust/offcon2019_final.pdf)
+* [CVE-2021-26943, the kernel-to-SMM local privilege escalation in ASUS UX360CA BIOS version 303 - 202003](https://standa-note.blogspot.com/2021/03/debugging-system-with-dci-and-windbg.html)
 
 
 ## BMC
 
+* [HPE iLO 5 security: Go home cryptoprocessor, you’re drunk! - 202106](https://www.sstic.org/2021/presentation/hpe_ilo_5_security_go_home_cryptoprocessor_youre_drunk/), [slide](https://www.sstic.org/media/SSTIC2021/SSTIC-actes/hpe_ilo_5_security_go_home_cryptoprocessor_youre_d/SSTIC2021-Slides-hpe_ilo_5_security_go_home_cryptoprocessor_youre_drunk-gazet_perigaud_czarny.pdf)
 * [Common BMC VulnerabilitiesAnd How to Avoid Repeating Them - 201909](https://osfc.io/uploads/talk/paper/39/Common_BMC_vulnerabilities_and_how_to_avoid_repeating_them.pdf)
 * [Subverting your server through its BMC - 201802](https://recon.cx/2018/brussels/resources/slides/RECON-BRX-2018-Subverting-your-server-through-its-BMC-the-HPE-iLO4-case.pdf), [poc](Subverting your server through its BMC: the HPE iLO4 case)
 * [The Unbearable Lightness of BMC - 201808](https://i.blackhat.com/us-18/Wed-August-8/us-18-Waisman-Soler-The-Unbearable-Lightness-of-BMC.pdf), [white paper](https://i.blackhat.com/us-18/Wed-August-8/us-18-Waisman-Soler-The-Unbearable-Lightness-of-BMC-wp.pdf)
@@ -98,9 +100,12 @@ Ring -2...
 
 
 ## Microcode
+* [Speculating the entire x86-64 Instruction Set In Seconds with This One Weird Trick - 202103](https://blog.can.ac/2021/03/22/speculating-x86-64-isa-with-one-weird-trick/)
 * [Under the hood of a CPU: Reverse Engineering the P6 microcode - 202011](https://www.youtube.com/watch?v=4oFOpDflJMA)
+* [Reverse Engineering of Intel Microcode UpdateStructure - 202009](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9197630), Intel released [Processor Microcode Package for Linux](https://github.com/intel/Intel-Linux-Processor-Microcode-Data-Files)
 * [GLM uCode dumps](https://github.com/chip-red-pill/glm-ucode)
 * [Intel LDAT notes - 202005](https://pbx.sh/ldat/)
+* [Intel Microcode Extra Undocumented Header - 201904](https://github.com/platomav/MCExtractor/wiki/Intel-Microcode-Extra-Undocumented-Header)
 * [Notes on Intel Microcode Updates - 201212](http://inertiawar.com/microcode/)
 * [Reverse Engineering x86 Processor Microcode - 201708](http://syssec.rub.de/media/emma/veroeffentlichungen/2017/08/16/usenix17-microcode.pdf), [video](https://www.youtube.com/watch?v=I6dQfnb3y0I) and [PoC code](https://github.com/RUB-SysSec/Microcode)
 
@@ -114,6 +119,7 @@ Ring -2...
 
 * [CHIPSEC](https://github.com/chipsec/)
 * [UEFITool](https://github.com/LongSoft/UEFITool)
+* [BIOS Guard Script tool](https://github.com/allowitsme/big-tool)
 * [Firmware research timeline](http://timeglider.com/timeline/5ca2daa6078caaf4)
 
 
